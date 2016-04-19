@@ -1,0 +1,82 @@
+\begin{thebibliography}{12}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Ben-Yakar(2000)]{ben2000experimental}
+Adela Ben-Yakar.
+\newblock \emph{Experimental investigation of mixing and ignition of transverse
+  jets in supersonic crossflows}.
+\newblock PhD thesis, Stanford University, 2000.
+
+\bibitem[Ben-Yakar and Hanson(2001)]{ben2001cavity}
+Adela Ben-Yakar and Ronald~K Hanson.
+\newblock Cavity flame-holders for ignition and flame stabilization in
+  scramjets: an overview.
+\newblock \emph{Journal of Propulsion and Power}, 17\penalty0 (4):\penalty0
+  869--877, 2001.
+
+\bibitem[Do(2009)]{do2009plasma}
+Hyungrok Do.
+\newblock \emph{Plasma-assisted combustion in a supersonic flow}.
+\newblock PhD thesis, Stanford University, 2009.
+
+\bibitem[Yilmaz et~al.(2013)Yilmaz, Ayli, and Aradag]{yilmaz2013investigation}
+Ibrahim Yilmaz, Ece Ayli, and Selin Aradag.
+\newblock Investigation of the effects of length to depth ratio on open
+  supersonic cavities using cfd and proper orthogonal decomposition.
+\newblock \emph{The Scientific World Journal}, 2013, 2013.
+
+\bibitem[Unalmis(2004)]{unalmis2004cavity}
+O~Haldun Unalmis.
+\newblock Cavity oscillation mechanisms in high-speed flows.
+\newblock \emph{AIAA Journal}, 42\penalty0 (10):\penalty0 2035--2041, 2004.
+
+\bibitem[Heller and Delfs(1996)]{heller1996letter}
+H~Heller and J~Delfs.
+\newblock Letter to the editor: cavity pressure oscillations: the generating
+  mechanism visualized.
+\newblock \emph{Journal of Sound and Vibration}, 196\penalty0 (2):\penalty0
+  248--252, 1996.
+
+\bibitem[Williams et~al.(2007)Williams, Cornelius, and
+  Rowley]{williams2007supersonic}
+David~R Williams, Daniel Cornelius, and Clarence~W Rowley.
+\newblock Supersonic cavity response to open-loop forcing.
+\newblock In \emph{Active Flow Control}, pages 230--243. Springer, 2007.
+
+\bibitem[McGregor and White(1970)]{mcgregor1970drag}
+O~Wayne McGregor and RA~White.
+\newblock Drag of rectangular cavities in supersonic and transonic flow
+  including the effects of cavity resonance.
+\newblock \emph{AIAA Journal}, 8\penalty0 (11):\penalty0 1959--1964, 1970.
+
+\bibitem[Luo et~al.(2011)Luo, Huang, Liu, and Wang]{luo2011drag}
+ShiBin Luo, Wei Huang, Jun Liu, and ZhenGuo Wang.
+\newblock Drag force investigation of cavities with different geometric
+  configurations in supersonic flow.
+\newblock \emph{Science China Technological Sciences}, 54\penalty0
+  (5):\penalty0 1345--1350, 2011.
+
+\bibitem[Sato et~al.(1999)Sato, Imamura, Shiba, Takahashi, Tsue, and
+  Kono]{sato1999advanced}
+N~Sato, A~Imamura, S~Shiba, S~Takahashi, M~Tsue, and M~Kono.
+\newblock Advanced mixing control in supersonic airstream with a wall-mounted
+  cavity.
+\newblock \emph{Journal of Propulsion and Power}, 15\penalty0 (2):\penalty0
+  358--360, 1999.
+
+\bibitem[Lazar et~al.(2008)Lazar, Elliott, and .~Glumac]{lazar2008control}
+Eli Lazar, Gregory Elliott, and Nick .~Glumac.
+\newblock Control of the shear layer above a supersonic cavity using energy
+  deposition.
+\newblock \emph{AIAA journal}, 46\penalty0 (12):\penalty0 2987--2997, 2008.
+
+\bibitem[III(2016)]{Sanzi2016}
+Raymond~Sanzi III.
+\newblock Working title.
+\newblock Honors thesis, 2016.
+
+\end{thebibliography}

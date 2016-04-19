@@ -1,0 +1,235 @@
+% Chapter Template
+
+\chapter{Experimental Setup} % Main chapter title
+
+\label{Chapter3} % Change X to a consecutive number; for referencing this chapter elsewhere, use \ref{ChapterX}
+
+\lhead{Chapter 3. \emph{Experimental Setup}} % Change X to a consecutive number; this is for the header on each page - perhaps a shortened title
+
+%----------------------------------------------------------------------------------------
+%	SECTION 1
+%----------------------------------------------------------------------------------------
+
+\section{Expansion Tube}
+
+The expansion tube is an impulse flow device similar to a shock tube. With an expansion tube, a high pressure gas is used to accelerate a volume of lower pressure gas to certain conditions required for supersonic testing. For the case of supersonic cavities, these conditions need to be similar to those found in the combustor of a scramjet engine. \textbf{WRITE THE CONDITIONS}. 
+
+%-----------------------------------
+%	SUBSECTION 1
+%-----------------------------------
+\subsection{Sections}
+
+The expansion tube consists of four sections, which are highlighted in Figure \ref{fig:tubelabeled}. The four sections are: the driver, the double diaphragm, the driven, and the expansion, as listed from upstream to downstream. Initial conditions of the tube set by the operator determines test conditions within test section. These initial conditions include pressure ratios between the sections as well as the gases used in the sections.
+
+The driver section is contained at a high pressure at the start of a test. This section is rated to be filled up to 800 psi. Non-combusting tests performed were run with a driver pressure of 225 psi. With higher pressures, faster test velocities of the test gas can be achieved. 
+
+%-----------------------------------
+%	SUBSECTION 2
+%-----------------------------------
+
+\subsection{Diaphragms}
+To separate the four sections, plastic diaphragms were placed at the boundary between these sections. These diaphragms were used to keep a pressure differential between the driver, double diaphragm, and driven sections. The pressure differential between these sections was a maximum of 120 psi for non-combusting tests. Another diaphragm was used to separate the test gas in the driver and the expansion gas in the expansion section. Depending on the test conditions, this diaphragm was required to withstand a maximum pressure differential of 1 psi. 
+
+Different thickness diaphragms were required, depending on the pressure differential between the sections. All diaphragms used for the driver and double diaphragm sections were cut from polycarbonate sheet. In order to determine the required diaphragm thickness, calculations were performed, utilizing known material properties and \textbf{SOME RELATIONSHIP}. Since the diaphragm is expected to expand to a near half sphere before breaking, a thin wall spherical pressure vessel relationship was used to determine the maximum pressure the plastic could withstand. This relationship, shown in Equation \ref{eq:spherePV}, was utilized to determine a range of thicknesses of the polycarbonate sheets to be used for different pressure conditions. 
+
+\begin{equation}
+\sigma_{uts} = \frac{P~r}{2t}
+\label{eq:spherePV}
+\end{equation}
+
+After initial testing of these diaphragms, it was determined this relationship provided an overestimation of about 185\% for the breaking pressure of a specific thickness of diaphragm. Since the polycarbonate sheets come in certain stock thicknesses, several thicknesses were purchased and testing was performed to determine the breaking pressure of each diaphragm. For this testing, a 1/4" polycarbonate sheet was placed at the upstream end of the double diaphragm and the thinner test sample was placed at the downstream end of the double diaphragm. The double diaphragm was then filled slowly. When the downstream diaphragm broke, the highest pressure reached was recorded. This procedure was repeated for other thicknesses of diaphragms. The results from these burst tests is shown in Table \ref{Table:Burst}. A majority of the non-combusting tests run were at a driver pressure of 225 psi, so 0.045" diaphragms were selected, as they have a higher burst pressure than the pressure differential between the driven and the double diaphragm, but not higher than the differential between the driver and the driven sections. These diaphragms reliably broke for each test.
+
+\begin{table}
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+\hline
+Thickness (inches) & Trial 1 Burst Pressure (psi) & Trial 2 Burst Pressure (psi)\\ 
+\hline \hline
+0.010 & 32 & n/a \\
+
+0.015 & 60 & n/a \\
+
+0.020 & 93 & 92 \\
+
+0.030 & 123 & 125 \\
+
+0.045 & 153 & 163 \\
+
+1/16 & 233 & 274 \\
+
+3/32 & 341 & n/a \\
+
+\hline \hline
+
+\end{tabular}
+\caption[Diaphragm Burst Pressures]{Diaphragm burst pressures at various thicknesses of polycarbonate sheets.}
+\label{Table:Burst}
+\end{table}
+
+Occasionally, after a test was run, it was noticed that the pieces of the diaphragm completely broke off, sending these pieces down the tube. Having these large pieces of diaphragm sent down the tube is unwanted. These large pieces can cause serious damage to the model in the test section, as well as damage to other parts of the tube. During one test, a large piece of diaphragm struck the nose of the blunted cylinder model, causing severe damage to the pressure transducer located at the nose. It was also observed that pieces of diaphragm nicked the observation windows on the test section. These damages needed to be avoided, so one proposed solution to this problem was to score the diaphragms. A short, shallow incision on the outside of the plastic in an "X" pattern would create failure modes which the diaphragm should break along. These failure modes cause the diaphragm to petal, ideally opening as wide as the tube, with the entire diaphragm intact. 
+
+Burst tests were performed on several scored diaphragms of 0.045" thickness.  This scoring was performed by hand with a knife, applying light pressure. The resulting score appeared as deep scratches in an "X" pattern. The results of the tests showed no significant decrease in burst pressure. In fact, all of the tests showed a higher burst pressure for the scored diaphragms than for the not scored ones. This could be due to the scoring allowing the plastic to deform further before bursting. It could also be due to the plastic being from a different batch sheet than the plastic used for earlier burst tests. Regardless of the reason, the results showed that the scored diaphragms could still be used. It was also found that good petalling of the diaphragm occurred, with minimal, if any, loss of diaphragm pieces down the tube. Because of these results, scoring of the diaphragms has become a regular step in the setup of the tube for each test.  
+
+
+
+%-----------------------------------
+%	SUBSECTION 3
+%-----------------------------------
+
+\subsection{•}
+
+%----------------------------------------------------------------------------------------
+%	SECTION 2
+%----------------------------------------------------------------------------------------
+
+\section{Models}
+
+
+
+%-----------------------------------
+%	SUBSECTION 1
+%-----------------------------------
+\subsection{Overview and Design Choices}
+
+
+
+%-----------------------------------
+%	SUBSECTION 2
+%-----------------------------------
+\subsection{Modular Design}
+
+Because the acoustic properties are the main focus of this thesis, it was important to design a model in which these acoustic properties could change. Frequency is one main acoustic property that was chosen to be varied with these cavities. Using Heller and Delfs relationship, as stated previously, varying the length of the cavity would give different cavity frequencies \cite{heller1996letter}. However, the L/D is also an important parameter in the flame-holding characteristics of these cavities. Combining these need for various lengths with the need for certain range of L/D resulted in a modular design.
+
+For the modular design, a 1/8-inch deep, 1 5/8-inch long cavity was created, as shown in Figure \ref{fig:cavModel}. The length of the cavity was chosen so that inserts could be attached, decreasing the overall length of the cavity, and achieving the desired L/D. Six inserts were manufactured to create L/Ds of 5, 7, and 9. These inserts are shown relative to the base cavity in Figure \ref{fig:cavInserts}. At each L/D, there was one insert with a flat wall and one insert manufactured with a 30$^\circ$ incline. This angled incline, as shown by Ben-Yakar \citep{ben2001cavity}, has the ability to suppress the acoustic waves. This allowed for the comparison of flame-holding abilities of the cavity with and without strong acoustic waves present at each L/D. This modular design gave a relatively wide spectrum of cavity conditions to test with a relatively easy means of changing these conditions for each test. 
+
+%-----------------------------------
+%	SUBSECTION 3
+%-----------------------------------
+\subsection{Implementation}
+
+%----------------------------------------------------------------------------------------
+%	SECTION 3
+%----------------------------------------------------------------------------------------
+
+\section{High Speed Pressure Transducers}
+
+Placed along the tube at various locations are piezoelectric pressure transducers. These pressure transducers provide both analog and digital data for each test run. The analog data allows for the observation of shock strength and the digital data allows for the calculation of shock velocity. The initial shock wave produced propagates down the tube. When the shock passes by one of these sensors, it registers as a very sharp increase in pressure. Knowing the time at which these shocks arrive at the various transducer locations, along with the location of the transducers relative to each other allows for the shock speed calculation. 
+
+In order to produce the digital signal required for the LabVIEW timer counter program to calculate the time between signals, a simple analog to digital circuit was designed. The design of the circuit was based off of previous work done by Helen Hutches \ref{Hutchens2015}. This circuit, as shown in Figure \ref{fig:timercircuit}, produces a 5V signal when an analog voltage is higher than a certain threshold. This threshold reference voltage is determined by three potentiometers connected to the circuit. The three potentiometers allow three different reference voltages to be set for up to six pressure transducer signals. When the analog voltage is lower than this reference voltage, the output of the circuit is 0V. This allows the digital data acquisition card to read either a HIGH (5V) signal or a LOW (0V) signal and interpret that as a digital signal. 
+
+This digital signal is also used to trigger the camera to record. The LabVIEW program, once getting a signal from a specified pressure transducer will generate a 5V TTL pulse. This pulse is 
+
+%-------------------------------------------------------------
+%	 SUBSECTION 1
+%-----------------------------------------------------------
+
+\subsection{Circuit}
+
+
+
+%----------------------------------------------------------
+%	 SUBSECTION 2
+%---------------------------------------------------------
+
+\subsection{Implementation and Troubleshooting}
+
+
+
+
+%---------------------------------------------------------
+%    SECTION 4
+%-----------------------------------------------------------------------------------
+
+\section{Infrared Sensor}
+
+Test time is one important metric needed for data analysis. After a test is run, the conditions of the test gas need to be known as well as for how long these conditions are experienced by the test gas. One way with which to determine that is with an infrared sensor. 
+
+The sensor used with the expansion tube at Lafayette is a Judson J10D series Indium Antemonide (InSb) sensor. These detectors have photovoltaic sensors that produce a current when exposed to infrared radiation.  
+
+%------------------------
+%    SUBSECTION 1
+%------------------------
+
+\subsection{Alignment}
+
+
+%------------------------
+%	 SUBSECTION 2
+%------------------------
+
+\subsection{Calibration}
+
+%------------------------
+%	 SUBSECTION 3
+%------------------------
+
+\subsection{Operation}
+
+%------------------------
+%	 SUBSECTION 4
+%------------------------
+
+To achieve the sensitivity required for the sensor, the operating temperature of the IR detector is about 77K. Because of this, the detector must be cooled with liquid nitrogen. Using the funnel to avoid spillage of the liquid nitrogen onto the cable connections or viewing window of the sensor, a few hundred milliliters were poured into the hole at the top of the sensor. When the sensor reaches the correct temperature, an eruption of cool gas occurs. It is important to wait until this eruption completes because the buildup of gas can cause the cap to blow off. Once the eruption subsides, the cap can be replaced to the top of the sensor and power can be supplied to the amplifier. 
+
+
+%---------------------------------------------------------
+%    SECTION 5
+%-----------------------------------------------------------------------------------
+
+\section{Schlieren Imaging}
+
+The images captured for the tests were done so using a high speed camera with a schlieren system. A diagram of the schlieren system at Lafayette can be seen in Figure \ref{fig:schlieren}. The camera used for image capturing is a Phantom Miro m310 camera, capable of taking images up to 100 fps. However, as the recording frame rate increases, the resolution of each image decreases. For testing, a nominal frame rate of 77,000 kHz was used, as this provided a sufficient frame rate without sacrificing too much resolution.
+
+The schlieren effect operates on the principle that light refracts in air due to changes in density. This can be observed firsthand on a hot day. The rippling effect one can see above a road on a hot day is the light refracting due to the different densities of the air, caused by differences in local air temperature. Schlieren imaging takes advantage of this principle by placing a knife edge at the focal point of the system. As light is refracted due to a change in density, this light gets blocked out by the knife edge, showing up as a dark spot in the captured image. Light that is not refracted continues through to the camera unblocked. 
+
+This type of imaging is important to see the various shock waves produced during testing. Since shock waves produce very sharp density gradients, a system that is capable of capturing these density gradients at high speeds is very useful. Typical test times experienced by the non-reacting tests were on the order of about 300 microseconds. With this camera, about 23 images were captured for the test time.  With this many frames, it was possible to time correlate the images as well as extract dominant frequencies within the cavities.
+
+Further information about the system, including more detail on how the system works and how to calibrate and align the system at Lafayette can be found in Ray Sanzi's honors thesis \cite{Sanzi2016}.
+
+
+
+%-------------------------------------------------------------------
+%    FIGURES
+%------------------------------------------------------------
+\begin{sidewaysfigure}
+\centering
+\includegraphics[width=\textwidth]{Figures/TubeLabeled.jpg}
+\caption[Annotated Expansion Tube]{Annotated photograph of the expansion tube at Lafayette College}
+\label{fig:tubelabeled}
+\end{sidewaysfigure}
+
+\begin{figure}
+\centering
+\includegraphics[height = 3in]{Figures/Cavitylabel.jpg}
+\caption[Cavity 3D Model]{3D rendering of cavity used in testing}
+\label{fig:cavModel}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[height = 3in]{Figures/CavityInserts.jpg}
+\caption[Cavity Model with Inserts]{3D rendering of cavity with various inserts to alter L/D}
+\label{fig:cavInserts}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[height = 3in]{Figures/IRschematic.png}
+\caption[IR setup diagram]{Schematic of the IR setup for the expansion tube.}
+\label{fig:IRschematic}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[height = 3in]{Figures/IRLabeled.jpg}
+\caption[Labeled photograph of IR setup]{Photograph of actual IR setup in the lab.}
+\label{fig:IRlabel}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=\textwidth]{Figures/Schlieren.png}
+\caption[Schlieren Diagram]{Diagram of schlieren system at Lafayette}
+\label{fig:schlieren}
+\end{figure}
