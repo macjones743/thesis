@@ -12,16 +12,20 @@
 
 \section{Expansion Tube}
 
-The expansion tube is an impulse flow device similar to a shock tube. With an expansion tube, a high pressure gas is used to accelerate a volume of lower pressure gas to certain conditions required for supersonic testing. For the case of supersonic cavities, these conditions need to be similar to those found in the combustor of a scramjet engine. \textbf{WRITE THE CONDITIONS}. 
+The expansion tube is an impulse flow device similar to a shock tube. With an expansion tube, a high pressure gas is used to accelerate a volume of lower pressure gas to certain conditions required for supersonic testing. For the case of supersonic cavities, these conditions need to be similar to those found in the combustor of a scramjet engine. With the expansion tube at Lafayette College, Mach numbers between 2 and 4 have been attained, which correspond well with typical scramjet engine Mach numbers between \textbf{SCRAMJET mach numbers here}.
 
 %-----------------------------------
 %	SUBSECTION 1
 %-----------------------------------
 \subsection{Sections}
 
-The expansion tube consists of four sections, which are highlighted in Figure \ref{fig:tubelabeled}. The four sections are: the driver, the double diaphragm, the driven, and the expansion, as listed from upstream to downstream. Initial conditions of the tube set by the operator determines test conditions within test section. These initial conditions include pressure ratios between the sections as well as the gases used in the sections.
+The expansion tube consists of four sections, which are highlighted in Figure \ref{fig:tubelabeled}. The four sections are: the driver, the double diaphragm, the driven, and the expansion, as listed from upstream to downstream. Initial conditions of the tube set by the operator determine test conditions within test section. These initial conditions include pressure ratios between the sections as well as the gases used in the sections. Each section is divided by plastic diaphragms at the start of each tests. These diaphragms allow the sections to be filled to the different pressures with the different gases required for testing.
 
 The driver section is contained at a high pressure at the start of a test. This section is rated to be filled up to 800 psi. Non-combusting tests performed were run with a driver pressure of 225 psi. With higher pressures, faster test velocities of the test gas can be achieved. 
+
+The double diaphragm serves as a starting mechanism for the experiments. It is filled o an intermediate pressure about half the driver pressure. This section is a very small volume (\textbf{place volume here}), which when vented, creates a large pressure drop across the most upstream diaphragm, causing it to break. The breaking of the diaphragm begins a chain reaction, starting the test. 
+
+Once the test begins, the test gas, which is contained in the driven section at a sub-atmospheric pressure, is accelerated by the driven gas. This gas travels down the tube, expanding and accelerating until it hits the last diaphragm between the driven and expansion sections. This last section differentiates an expansion tube from a shock tube. With the addition of the last diaphragm, the expansion section can be kept at an even lower pressure than the driven section. When the diaphragm between these sections break, the test gas experiences further expansion and acceleration, allowing faster freestream velocities and higher Mach numbers in the test section. 
 
 %-----------------------------------
 %	SUBSECTION 2
@@ -30,7 +34,7 @@ The driver section is contained at a high pressure at the start of a test. This 
 \subsection{Diaphragms}
 To separate the four sections, plastic diaphragms were placed at the boundary between these sections. These diaphragms were used to keep a pressure differential between the driver, double diaphragm, and driven sections. The pressure differential between these sections was a maximum of 120 psi for non-combusting tests. Another diaphragm was used to separate the test gas in the driver and the expansion gas in the expansion section. Depending on the test conditions, this diaphragm was required to withstand a maximum pressure differential of 1 psi. 
 
-Different thickness diaphragms were required, depending on the pressure differential between the sections. All diaphragms used for the driver and double diaphragm sections were cut from polycarbonate sheet. In order to determine the required diaphragm thickness, calculations were performed, utilizing known material properties and \textbf{SOME RELATIONSHIP}. Since the diaphragm is expected to expand to a near half sphere before breaking, a thin wall spherical pressure vessel relationship was used to determine the maximum pressure the plastic could withstand. This relationship, shown in Equation \ref{eq:spherePV}, was utilized to determine a range of thicknesses of the polycarbonate sheets to be used for different pressure conditions. 
+Different thickness diaphragms were required, depending on the pressure differential between the sections. All diaphragms used for the driver and double diaphragm sections were cut from polycarbonate sheet. In order to determine the required diaphragm thickness, calculations were performed, utilizing known material properties and spherical pressure vessel relationships. Since the diaphragm is expected to expand to a near half sphere before breaking, a thin wall spherical pressure vessel relationship was used to determine the maximum pressure the plastic could withstand. This relationship, shown in Equation \ref{eq:spherePV}, was utilized to determine a range of thicknesses of the polycarbonate sheets to be used for different pressure conditions. 
 
 \begin{equation}
 \sigma_{uts} = \frac{P~r}{2t}
@@ -85,13 +89,21 @@ Burst tests were performed on several scored diaphragms of 0.045" thickness.  Th
 
 \section{Models}
 
+For testing, a cavity model was designed and manufactured. The designed cavity, as shown in Figure \ref{fig:cavModel}, was designed to be mounted with the current mounting system in the test section. This mounting system consists of a rectangular upright with thru holes for shoulder bolts. The three holes seen in Figure \ref{fig:cavModel} are in line with the existing holes in the mounting system. This allows one to swap out models in the test section quickly in between tests. 
 
 
 %-----------------------------------
 %	SUBSECTION 1
 %-----------------------------------
-\subsection{Overview and Design Choices}
+\subsection{Design Choices}
 
+While designing the cavity, several choices had to be made about the geometry of the model as well as the features of the cavity. Brass was chosen as the material due to its relatively low cost as well as its ability to be easily machined. Brass also holds up well to the conditions experienced in the test section during testing. 
+
+The overall size of the brass was chosen based on the size of the core flow exiting the tube into the test section as well as the requirement to be affixed to the existing mounting system. The size of the core flow coming out of the tube begins as about the diameter of the tube itself. However, it grows smaller as the length from the tube exit increases. It is important that the area of interest (the cavity) is contained entirely within this core flow. Knowing the cavity would sit a few inches from exit of the tube, a width of 2.5 inches was chosen for the brass. This would ensure that the core flow, at the time it hits the cavity, would entirely encapsulate the cavity. A total height of 1 inch was chosen because it allowed the rectangular hole for the mounting system to be machined to the correct depth that aligned the thru holes for the shoulder bolts. It was designed that after the rectangular hole was made in the brass, a thickness of 1/4 inch was left. This was chosen because the cavity exists relatively close to the mounting system and at least 1/8 inch of material needed to be left between the top of the mounting system and the bottom of the cavity to ensure the part could be machined without any issues. 
+
+The cavity itself was placed \textbf{THIS FAR AWAY FROM THE FRONT} in order to develop the flow over the flat plate. Flow conditions experienced by the cavity should match closely to flow conditions experienced in scramjet engines, including boundary layer conditions. For consistency with other researchers, as length of \textbf{THIS LENGTH} was chosen.
+
+At the upstream end of the cavity model, there exists a wedge. Flow over a flat plate leading up to the cavity was desired. The wedge was designed in order to redirect any shock waves away from the cavity. These shock waves have the ability to adversely affect test results if they interact with the cavity. Calculating shock wave angles for several wedge angles and calculating where the shocks would reflect off the walls of the test section, a wedge angle of \textbf{WEDGE ANGLE HERE} was chosen. This angle created a shock of \textbf{SHOCK ANGLE HERE}, which when reflected through the test section did not reflect into the cavity. 
 
 
 %-----------------------------------
@@ -99,14 +111,17 @@ Burst tests were performed on several scored diaphragms of 0.045" thickness.  Th
 %-----------------------------------
 \subsection{Modular Design}
 
-Because the acoustic properties are the main focus of this thesis, it was important to design a model in which these acoustic properties could change. Frequency is one main acoustic property that was chosen to be varied with these cavities. Using Heller and Delfs relationship, as stated previously, varying the length of the cavity would give different cavity frequencies \cite{heller1996letter}. However, the L/D is also an important parameter in the flame-holding characteristics of these cavities. Combining these need for various lengths with the need for certain range of L/D resulted in a modular design.
+Because the acoustic properties are the main focus of this thesis, it was important to design a model in which these acoustic properties could change. Frequency is one main acoustic property that was chosen to be varied with these cavities. Using Heller and Delfs relationship, as stated previously, varying the length of the cavity would lead to different cavity frequencies \cite{heller1996letter}. However, the L/D is also an important parameter in the flame-holding characteristics of these cavities. Combining these need for various lengths with the need for certain range of L/D resulted in a modular design. For good flame-holding characteristics, a L/D between 4 and 10 has been shown to provide those characteristics \cite{ben2001cavity}
 
-For the modular design, a 1/8-inch deep, 1 5/8-inch long cavity was created, as shown in Figure \ref{fig:cavModel}. The length of the cavity was chosen so that inserts could be attached, decreasing the overall length of the cavity, and achieving the desired L/D. Six inserts were manufactured to create L/Ds of 5, 7, and 9. These inserts are shown relative to the base cavity in Figure \ref{fig:cavInserts}. At each L/D, there was one insert with a flat wall and one insert manufactured with a 30$^\circ$ incline. This angled incline, as shown by Ben-Yakar \citep{ben2001cavity}, has the ability to suppress the acoustic waves. This allowed for the comparison of flame-holding abilities of the cavity with and without strong acoustic waves present at each L/D. This modular design gave a relatively wide spectrum of cavity conditions to test with a relatively easy means of changing these conditions for each test. 
+For the modular design, a 1/8-inch deep, 1 5/8-inch long cavity was created, as shown in Figure \ref{fig:cavModel}. The length of the cavity was chosen so that inserts could be attached, decreasing the overall length of the cavity, and achieving the desired L/D. Six inserts were manufactured to create L/Ds of 5, 7, and 9. These inserts are shown relative to the base cavity in Figure \ref{fig:cavInserts}. At each L/D, there was one insert with a flat wall and one insert manufactured with a 30$^\circ$ incline. This angled incline, as shown by Ben-Yakar \cite{ben2001cavity}, has the ability to suppress the acoustic waves. The angled wall does not allow the pressure waves to propagate within the cavity space. This allowed for the comparison of flame-holding abilities of the cavity with and without strong acoustic waves present at each L/D. This modular design gave a relatively wide spectrum of cavity conditions to test with a relatively easy means of changing these conditions for each test. 
 
 %-----------------------------------
 %	SUBSECTION 3
 %-----------------------------------
 \subsection{Implementation}
+
+
+
 
 %----------------------------------------------------------------------------------------
 %	SECTION 3
@@ -118,7 +133,7 @@ Placed along the tube at various locations are piezoelectric pressure transducer
 
 In order to produce the digital signal required for the LabVIEW timer counter program to calculate the time between signals, a simple analog to digital circuit was designed. The design of the circuit was based off of previous work done by Helen Hutches \ref{Hutchens2015}. This circuit, as shown in Figure \ref{fig:timercircuit}, produces a 5V signal when an analog voltage is higher than a certain threshold. This threshold reference voltage is determined by three potentiometers connected to the circuit. The three potentiometers allow three different reference voltages to be set for up to six pressure transducer signals. When the analog voltage is lower than this reference voltage, the output of the circuit is 0V. This allows the digital data acquisition card to read either a HIGH (5V) signal or a LOW (0V) signal and interpret that as a digital signal. 
 
-This digital signal is also used to trigger the camera to record. The LabVIEW program, once getting a signal from a specified pressure transducer will generate a 5V TTL pulse. This pulse is 
+This digital signal is also used to trigger the camera to record. The LabVIEW program, once getting a signal from a specified pressure transducer will generate a 5V TTL pulse. 
 
 %-------------------------------------------------------------
 %	 SUBSECTION 1
@@ -143,34 +158,44 @@ This digital signal is also used to trigger the camera to record. The LabVIEW pr
 
 \section{Infrared Sensor}
 
-Test time is one important metric needed for data analysis. After a test is run, the conditions of the test gas need to be known as well as for how long these conditions are experienced by the test gas. One way with which to determine that is with an infrared sensor. 
+Test time is one important metric needed for data analysis. After a test is run, the conditions of the test gas need to be known as well as for how long these conditions are experienced by the test gas. One way with which to determine the test time is with an infrared sensor. 
 
-The sensor used with the expansion tube at Lafayette is a Judson J10D series Indium Antemonide (InSb) sensor. These detectors have photovoltaic sensors that produce a current when exposed to infrared radiation.  
+The sensor used with the expansion tube at Lafayette is a Judson J10D series Indium Antemonide (InSb) sensor. These detectors have photovoltaic sensors that produce a current when exposed to infrared radiation. The sensor has the ability to be utilized for both absorption as well as emission sensing techniques. These techniques are explained in detail in a subsequent subsection.
 
 %------------------------
 %    SUBSECTION 1
 %------------------------
 
 \subsection{Alignment}
+The alignment and placement of the various components is important for the proper collection of the IR light from the tube. The setup, as depicted in the diagram in Figure \ref{fig:IRschematic}, includes a slit, a concave mirror, and a flat mirror. The slits affect the spacial resolution of the incoming signal. If the slits are too wide, the sensor captures some of the scattered light, which shows up as a gradual increase in signal. If the slits are too narrow, not enough light can be captured by the sensor to show a good signal. The slit width is still being fine-tuned for the system in place, but the typical width for the slits is between 1 and 3 mm. 
 
+The sensor itself has a circular pickup area of about 2mm in diameter. Because of this, the IR light from the tube needs to be focused. Once the light passes through the slits, it hits a concave mirror. This concave mirror, with a focal length of \textbf{insert focal length}, focuses the light to a small point, just about the size of the sensor. The flat mirror is used to collapse the system so it can fit in a relatively small area. The entire system is contained in a box, as shown in Figure \ref{fig:IRlabel}. Since most of the testing is done during the day, the box is used to block out any ambient light from the room. The system is attached to the support structure of the tube by a 1/2" aluminum plate cantilever. Some bending, less than 1/16",  is present at the end of the beam where the setup is supported, but it is not enough to affect the collection of the IR system. 
 
 %------------------------
 %	 SUBSECTION 2
 %------------------------
 
-\subsection{Calibration}
+\subsection{Set Up}
 
-%------------------------
-%	 SUBSECTION 3
-%------------------------
-
-\subsection{Operation}
-
-%------------------------
-%	 SUBSECTION 4
-%------------------------
 
 To achieve the sensitivity required for the sensor, the operating temperature of the IR detector is about 77K. Because of this, the detector must be cooled with liquid nitrogen. Using the funnel to avoid spillage of the liquid nitrogen onto the cable connections or viewing window of the sensor, a few hundred milliliters were poured into the hole at the top of the sensor. When the sensor reaches the correct temperature, an eruption of cool gas occurs. It is important to wait until this eruption completes because the buildup of gas can cause the cap to blow off. Once the eruption subsides, the cap can be replaced to the top of the sensor and power can be supplied to the amplifier. 
+
+
+
+%------------------------
+%     SUBSECTION 3
+%------------------------
+
+\subsection{Absorption}
+
+
+%------------------------
+%     SUBSECTION 4
+%------------------------
+
+\subsection{Emission}
+
+
 
 
 %---------------------------------------------------------
@@ -215,6 +240,22 @@ Further information about the system, including more detail on how the system wo
 
 \begin{figure}
 \centering
+\includegraphics[width=\textwidth]{Figures/Circuit.png}
+\caption[Circuit Diagram for Timer Counter Box]{Circuit diagram for timer counter box}
+\label{fig:TCCircuit}
+\end{figure}
+
+
+\begin{figure}[p!]
+\centering
+\includegraphics[width=\textwidth]{Figures/DataFlow.png}
+\caption[Data Flow for High Speed Pressure Transducers]{Data flow for high speed pressure transducers}
+\label{fig:DataFlow}
+\end{figure}
+\clearpage
+
+\begin{figure}
+\centering
 \includegraphics[height = 3in]{Figures/IRschematic.png}
 \caption[IR setup diagram]{Schematic of the IR setup for the expansion tube.}
 \label{fig:IRschematic}
@@ -226,6 +267,8 @@ Further information about the system, including more detail on how the system wo
 \caption[Labeled photograph of IR setup]{Photograph of actual IR setup in the lab.}
 \label{fig:IRlabel}
 \end{figure}
+
+
 
 \begin{figure}
 \centering
