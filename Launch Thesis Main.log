@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.25)  24 APR 2016 09:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.25)  26 APR 2016 09:25
 entering extended mode
 **"./Launch Thesis Main.tex"
 ("Launch Thesis Main.tex"
@@ -719,7 +719,11 @@ LaTeX Info: Redefining \cite on input line 694.
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 34.
 
-("Launch Thesis Main.aux")
+("Launch Thesis Main.aux"
+
+LaTeX Warning: Label `Chapter2' multiply defined.
+
+)
 \openout1 = `"Launch Thesis Main.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
@@ -742,8 +746,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: longtable package is loaded.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\ltcaption.sty"
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\ltcaption.sty"
 Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
 )
 Package caption Info: rotating package is loaded.
@@ -783,7 +786,7 @@ LaTeX Info: Redefining \nameref on input line 37.
 \openout3 = `"Launch Thesis Main.out"'.
 
 
-<Pictures/LAF_logo_w_seal_color.pdf, id=140, 614.295pt x 794.97pt>
+<Pictures/LAF_logo_w_seal_color.pdf, id=220, 614.295pt x 794.97pt>
 File: Pictures/LAF_logo_w_seal_color.pdf Graphic file (type pdf)
 
 <use Pictures/LAF_logo_w_seal_color.pdf>
@@ -800,7 +803,7 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 81.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<Pictures/Launch_Circle_Logo.pdf, id=146, 614.295pt x 794.97pt>
+<Pictures/Launch_Circle_Logo.pdf, id=226, 614.295pt x 794.97pt>
 File: Pictures/Launch_Circle_Logo.pdf Graphic file (type pdf)
 
 <use Pictures/Launch_Circle_Logo.pdf>
@@ -840,13 +843,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 142--142
  Table of Contents
 ------------------------------------------------------------------------------
 ("Launch Thesis Main.toc"
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 23.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 26.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 23.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 26.
  [5
 
 
@@ -918,136 +921,162 @@ LaTeX Warning: Reference `CavDiagram' on page 1 undefined on input line 17.
 
 
 
-] [2] [3] <Figures/CavityDiagram.png, id=341, 345.70392pt x 204.88918pt>
+] [2]
+
+Package natbib Warning: Citation `sato1990advanced' on page 3 undefined on inpu
+t line 25.
+
+
+LaTeX Warning: Reference `fig:sato' on page 3 undefined on input line 25.
+
+[3]) (Chapters/Chapter3.tex [4]
+Chapter 2.
+------------------------------------------------------------------------------
+ 2 Theory
+------------------------------------------------------------------------------
+<Figures/CavityDiagram.png, id=446, 345.70392pt x 204.88918pt>
 File: Figures/CavityDiagram.png Graphic file (type png)
 
 <use Figures/CavityDiagram.png>
-Package pdftex.def Info: Figures/CavityDiagram.png used on input line 61.
+Package pdftex.def Info: Figures/CavityDiagram.png used on input line 35.
 (pdftex.def)             Requested size: 365.83777pt x 216.81pt.
-) (Chapters/Chapter4.tex [4] [5 <./Figures/CavityDiagram.png>]
-Chapter 2.
+) (Chapters/Chapter4.tex [5
+
+ <./Figures/CavityDiagram.png>]
+Chapter 3.
 ------------------------------------------------------------------------------
- 2 Experimental Setup
+ 3 Experimental Setup
 ------------------------------------------------------------------------------
 [6
 
 ] [7] [8] [9]
 LaTeX Font Info:    Font shape `OMS/cmr/bx/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 84.
- [10] [11] [12]
+ [10] [11] [12] [13] [14] [15]
 
-LaTeX Warning: Reference `Hutchens2015' on page 13 undefined on input line 134.
+LaTeX Warning: Reference `fig:IRabsorption' on page 16 undefined on input line 
+191.
 
+[16]
 
+LaTeX Warning: Reference `fig:IRemission' on page 17 undefined on input line 20
+0.
 
-LaTeX Warning: Reference `fig:timercircuit' on page 13 undefined on input line 
-134.
-
-[13] [14] [15] [16] <Figures/TubeLabeled.jpg, id=417, 7797.13pt x 1921.1775pt>
+[17] [18] <Figures/TubeLabeled.jpg, id=530, 7797.13pt x 1921.1775pt>
 File: Figures/TubeLabeled.jpg Graphic file (type jpg)
 
 <use Figures/TubeLabeled.jpg>
-Package pdftex.def Info: Figures/TubeLabeled.jpg used on input line 222.
+Package pdftex.def Info: Figures/TubeLabeled.jpg used on input line 233.
 (pdftex.def)             Requested size: 684.97308pt x 168.76514pt.
 
-<Figures/Cavitylabel.jpg, id=418, 414.04688pt x 222.8325pt>
+<Figures/Cavitylabel.jpg, id=531, 414.04688pt x 222.8325pt>
 File: Figures/Cavitylabel.jpg Graphic file (type jpg)
 
 <use Figures/Cavitylabel.jpg>
-Package pdftex.def Info: Figures/Cavitylabel.jpg used on input line 229.
+Package pdftex.def Info: Figures/Cavitylabel.jpg used on input line 240.
 (pdftex.def)             Requested size: 402.86327pt x 216.81pt.
 
-<Figures/CavityInserts.jpg, id=419, 481.8pt x 361.35pt>
+<Figures/CavityInserts.jpg, id=532, 481.8pt x 361.35pt>
 File: Figures/CavityInserts.jpg Graphic file (type jpg)
 
 <use Figures/CavityInserts.jpg>
-Package pdftex.def Info: Figures/CavityInserts.jpg used on input line 236.
+Package pdftex.def Info: Figures/CavityInserts.jpg used on input line 247.
 (pdftex.def)             Requested size: 289.08221pt x 216.81pt.
 
-<Figures/Circuit.png, id=420, 610.28pt x 1024.82875pt>
+<Figures/Circuit.png, id=533, 610.28pt x 1023.825pt>
 File: Figures/Circuit.png Graphic file (type png)
+ <use Figures/Circuit.png>
+Package pdftex.def Info: Figures/Circuit.png used on input line 254.
+(pdftex.def)             Requested size: 417.47307pt x 700.39418pt.
 
-<use Figures/Circuit.png>
-Package pdftex.def Info: Figures/Circuit.png used on input line 243.
-(pdftex.def)             Requested size: 417.47307pt x 701.08086pt.
 
+LaTeX Warning: Float too large for page by 37.4211pt on input line 257.
 
-LaTeX Warning: Float too large for page by 38.10777pt on input line 246.
-
-<Figures/DataFlow.png, id=421, 808.01875pt x 646.415pt>
+<Figures/DataFlow.png, id=534, 808.01875pt x 646.415pt>
 File: Figures/DataFlow.png Graphic file (type png)
 
 <use Figures/DataFlow.png>
-Package pdftex.def Info: Figures/DataFlow.png used on input line 251.
+Package pdftex.def Info: Figures/DataFlow.png used on input line 262.
 (pdftex.def)             Requested size: 417.47307pt x 333.97763pt.
- [17] [18 <./Figures/TubeLabeled.jpg>] [19 <./Figures/Cavitylabel.jpg> <./Figur
-es/CavityInserts.jpg>] [20 <./Figures/Circuit.png>]
-[21 <./Figures/DataFlow.png>]
-<Figures/IRschematic.png, id=446, 727.71875pt x 578.16pt>
+ [19] [20 <./Figures/TubeLabeled.jpg>] [21 <./Figures/Cavitylabel.jpg> <./Figur
+es/CavityInserts.jpg>] [22 <./Figures/Circuit.png>]
+[23 <./Figures/DataFlow.png>]
+<Figures/IRschematic.png, id=558, 727.71875pt x 578.16pt>
 File: Figures/IRschematic.png Graphic file (type png)
 
 <use Figures/IRschematic.png>
-Package pdftex.def Info: Figures/IRschematic.png used on input line 259.
+Package pdftex.def Info: Figures/IRschematic.png used on input line 270.
 (pdftex.def)             Requested size: 272.89386pt x 216.81pt.
 
-<Figures/IRLabeled.jpg, id=447, 5331.92pt x 2999.205pt>
+<Figures/IRLabeled.jpg, id=559, 5331.92pt x 2999.205pt>
 File: Figures/IRLabeled.jpg Graphic file (type jpg)
 
 <use Figures/IRLabeled.jpg>
-Package pdftex.def Info: Figures/IRLabeled.jpg used on input line 266.
+Package pdftex.def Info: Figures/IRLabeled.jpg used on input line 277.
 (pdftex.def)             Requested size: 385.39494pt x 216.81pt.
 
-<Figures/Schlieren.png, id=448, 818.05624pt x 505.89pt>
+<Figures/Schlieren.png, id=560, 818.05624pt x 505.89pt>
 File: Figures/Schlieren.png Graphic file (type png)
 
 <use Figures/Schlieren.png>
-Package pdftex.def Info: Figures/Schlieren.png used on input line 275.
+Package pdftex.def Info: Figures/Schlieren.png used on input line 298.
 (pdftex.def)             Requested size: 417.47307pt x 258.1703pt.
-) (Appendices/AppendixA.tex [22 <./Figures/IRschematic.png> <./Figures/IRLabele
-d.jpg>] [23 <./Figures/Schlieren.png>]
-Appendix A.
+) (Chapters/Chapter5.tex [24 <./Figures/IRschematic.png> <./Figures/IRLabeled.j
+pg>] [25 <./Figures/Schlieren.png>]
+Chapter 4.
 ------------------------------------------------------------------------------
- A Appendix Title Here
+ 4 Experimentation
 ------------------------------------------------------------------------------
-) [24
+) (Chapters/Chapter6.tex [26
 
+
+]
+Chapter 5.
+------------------------------------------------------------------------------
+ 5 Experimental Results
+------------------------------------------------------------------------------
+) (Chapters/Chapter7.tex [27
+
+] [28]
+Chapter 6.
+------------------------------------------------------------------------------
+ 6 Future Work
+------------------------------------------------------------------------------
+) [29
 
 ]
 ------------------------------------------------------------------------------
  Bibliography
 ------------------------------------------------------------------------------
-("Launch Thesis Main.bbl" [25
+("Launch Thesis Main.bbl" [30
 
 
 ])
+
+Package natbib Warning: There were undefined citations.
+
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 317.
- [26]
+[31]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 317.
  ("Launch Thesis Main.aux")
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 317.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 317.
+Package rerunfilecheck Info: File `"Launch Thesis Main".out' has not changed.
+(rerunfilecheck)             Checksum: 59CF2B5F9B7559251DE906A37AD948E8;7829.
 
-
-Package rerunfilecheck Warning: File `"Launch Thesis Main".out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `"Launch Thesis Main".out':
-(rerunfilecheck)             Before: 0433847E7B1AF34DFF05F70E83830546;4848
-(rerunfilecheck)             After:  CF647EF65801DDA4BE39436D7124EBBC;4777.
 
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 317.
  ) 
 Here is how much of TeX's memory you used:
- 13731 strings out of 493634
- 192478 string characters out of 3141314
- 269983 words of memory out of 3000000
- 16797 multiletter control sequences out of 15000+200000
+ 13792 strings out of 493634
+ 193272 string characters out of 3141314
+ 270132 words of memory out of 3000000
+ 16824 multiletter control sequences out of 15000+200000
  15120 words of font info for 55 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  49i,11n,45p,1497b,444s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1067,9 +1096,9 @@ iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKT
 eX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (x86)/MiKTeX 2
 .9/fonts/type1/public/amsfonts/symbols/msam7.pfb>
-Output written on "Launch Thesis Main.pdf" (39 pages, 9576292 bytes).
+Output written on "Launch Thesis Main.pdf" (44 pages, 9597880 bytes).
 PDF statistics:
- 552 PDF objects out of 1000 (max. 8388607)
- 108 named destinations out of 1000 (max. 500000)
- 340 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 682 PDF objects out of 1000 (max. 8388607)
+ 134 named destinations out of 1000 (max. 500000)
+ 500 words of extra memory for PDF output out of 10000 (max. 10000000)
 

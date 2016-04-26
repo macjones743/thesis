@@ -131,7 +131,7 @@ For the modular design, a 1/8-inch deep, 1 5/8-inch long cavity was created, as 
 
 Placed along the tube at various locations are piezoelectric pressure transducers. These pressure transducers provide both analog and digital data for each test run. The analog data allows for the observation of shock strength and the digital data allows for the calculation of shock velocity. The initial shock wave produced propagates down the tube. When the shock passes by one of these sensors, it registers as a very sharp increase in pressure. Knowing the time at which these shocks arrive at the various transducer locations, along with the location of the transducers relative to each other allows for the shock speed calculation. 
 
-In order to produce the digital signal required for the LabVIEW timer counter program to calculate the time between signals, a simple analog to digital circuit was designed. The design of the circuit was based off of previous work done by Helen Hutches \ref{Hutchens2015}. This circuit, as shown in Figure \ref{fig:timercircuit}, produces a 5V signal when an analog voltage is higher than a certain threshold. This threshold reference voltage is determined by three potentiometers connected to the circuit. The three potentiometers allow three different reference voltages to be set for up to six pressure transducer signals. When the analog voltage is lower than this reference voltage, the output of the circuit is 0V. This allows the digital data acquisition card to read either a HIGH (5V) signal or a LOW (0V) signal and interpret that as a digital signal. 
+In order to produce the digital signal required for the LabVIEW timer counter program to calculate the time between signals, a simple analog to digital circuit was designed. The design of the circuit was based off of previous work done by Helen Hutches \cite{Hutchens2015}. This circuit, as shown in Figure \ref{fig:timercircuit}, produces a 5V signal when an analog voltage is higher than a certain threshold. This threshold reference voltage is determined by three potentiometers connected to the circuit. The three potentiometers allow three different reference voltages to be set for up to six pressure transducer signals. When the analog voltage is lower than this reference voltage, the output of the circuit is 0V. This allows the digital data acquisition card to read either a HIGH (5V) signal or a LOW (0V) signal and interpret that as a digital signal. 
 
 This digital signal is also used to trigger the camera to record. The LabVIEW program, once getting a signal from a specified pressure transducer will generate a 5V TTL pulse. 
 
@@ -158,7 +158,7 @@ This digital signal is also used to trigger the camera to record. The LabVIEW pr
 
 \section{Infrared Sensor}
 
-Test time is one important metric needed for data analysis. After a test is run, the conditions of the test gas need to be known as well as for how long these conditions are experienced by the test gas. One way with which to determine the test time is with an infrared sensor. 
+Test time is important for the correlation of schlieren image data. Because the two systems are initiated simultaneously, the IR data corresponds easily to the image data. Knowing when the test gas reaches the model and for how long the test gas is flowing over the model allows for the extraction of frames that equate to just the test time. Although it is possible by inspection to see when the test gas arrives at the model, it is not always obvious. The arrival of the test gas produces shock waves at a different angle than the helium behind the incident shock wave, but this change in angle might not be very large, depending on the change in velocity. However, with the IR data, it can be closely estimated when the test gas should reach the model and for how long the model experiences the test gas. 
 
 The sensor used with the expansion tube at Lafayette is a Judson J10D series Indium Antemonide (InSb) sensor. These detectors have photovoltaic sensors that produce a current when exposed to infrared radiation. The sensor has the ability to be utilized for both absorption as well as emission sensing techniques. These techniques are explained in detail in a subsequent subsection.
 
@@ -166,10 +166,10 @@ The sensor used with the expansion tube at Lafayette is a Judson J10D series Ind
 %    SUBSECTION 1
 %------------------------
 
-\subsection{Alignment}
+\subsection{Design of System}
 The alignment and placement of the various components is important for the proper collection of the IR light from the tube. The setup, as depicted in the diagram in Figure \ref{fig:IRschematic}, includes a slit, a concave mirror, and a flat mirror. The slits affect the spacial resolution of the incoming signal. If the slits are too wide, the sensor captures some of the scattered light, which shows up as a gradual increase in signal. If the slits are too narrow, not enough light can be captured by the sensor to show a good signal. The slit width is still being fine-tuned for the system in place, but the typical width for the slits is between 1 and 3 mm. 
 
-The sensor itself has a circular pickup area of about 2mm in diameter. Because of this, the IR light from the tube needs to be focused. Once the light passes through the slits, it hits a concave mirror. This concave mirror, with a focal length of \textbf{insert focal length}, focuses the light to a small point, just about the size of the sensor. The flat mirror is used to collapse the system so it can fit in a relatively small area. The entire system is contained in a box, as shown in Figure \ref{fig:IRlabel}. Since most of the testing is done during the day, the box is used to block out any ambient light from the room. The system is attached to the support structure of the tube by a 1/2" aluminum plate cantilever. Some bending, less than 1/16",  is present at the end of the beam where the setup is supported, but it is not enough to affect the collection of the IR system. 
+The sensor itself has a circular pickup area of about 2mm in diameter. Because of this, the IR light from the tube needs to be focused. Once the light passes through the slits, it hits a concave mirror. This concave mirror, with a focal length of \textbf{insert focal length}, focuses the light to a small point, just about the size of the sensor. The flat mirror is used to collapse the system so it can fit in a relatively small area. The entire system is contained in a box, as shown in Figure \ref{fig:IRlabel}. Since most of the testing is done during the day, the box is used to block out any ambient light from the room. The system is attached to the support structure of the tube by a 1/2" aluminum plate cantilever. Some bending, less than 1/16",  is present at the end of the beam where the setup is supported, but it is not enough to affect the collection by the IR system. 
 
 %------------------------
 %	 SUBSECTION 2
@@ -180,13 +180,15 @@ The sensor itself has a circular pickup area of about 2mm in diameter. Because o
 
 To achieve the sensitivity required for the sensor, the operating temperature of the IR detector is about 77K. Because of this, the detector must be cooled with liquid nitrogen. Using the funnel to avoid spillage of the liquid nitrogen onto the cable connections or viewing window of the sensor, a few hundred milliliters were poured into the hole at the top of the sensor. When the sensor reaches the correct temperature, an eruption of cool gas occurs. It is important to wait until this eruption completes because the buildup of gas can cause the cap to blow off. Once the eruption subsides, the cap can be replaced to the top of the sensor and power can be supplied to the amplifier. 
 
-
+After power is supplied to the sensor through the amplifier, it is important to check that the system is aligned. Since the setup is attached to the support structure and not the tube itself, the recoil of the tube or the moving of the tube to replace diaphragms can alter the alignment of the window to the focusing mirror. To re-align the system, a stainless steel LED tube was constructed. This tube fits within the porthole on the back side of the tube, aligned with the port for the IR sensor. With the LED on and lined up with the inside wall of the tube, check the light source path. Be sure that the thin slit of red light hits the small sensor area. Adjust the flat mirror as needed to align the slit of red light with the IR sensor pickup area. Once the system is aligned, remove the LED tube and replace the plug in that port. The system at this point is aligned and ready for a test.  
 
 %------------------------
 %     SUBSECTION 3
 %------------------------
 
 \subsection{Absorption}
+
+One method of data capturing that can be used is infrared absorption. The absorption method is based on the principle that different gases absorb radiation at different amounts. For absorption tests, an infrared light is placed behind a sapphire window on the other side of the tube. This IR light source provides the sensor with a baseline IR emission reading. As different gases pass by the sensor, they absorb some of the IR light, resulting in a different level of IR signal at the sensor. Measuring the time at the absorption level that corresponds to the test gas corresponds to the test time within the test section. Although the sensor is capable of reading the IR signal with this method, the emission method has provided more reliable measurements of test time. The emission method only allows for signal to come to the sensor when the test gas is passing by, whereas the absorption method also shows when the other gases pass by the sensor. A typical voltage trace of the absorption method is shown in Figure \ref{fig:IRabsorption}. It has been more difficult to measure test time with the absorption method than the emission method, so the emission method has been used primarily in the non-combusting tests and will continue to be used in the combustion tests. Further testing and tuning of the system is required to capture more meaningful information with this method. 
 
 
 %------------------------
@@ -195,7 +197,16 @@ To achieve the sensitivity required for the sensor, the operating temperature of
 
 \subsection{Emission}
 
+The second method is infrared emission. As gases are heated, they emit IR radiation at different wavelengths. Using a filter, other wavelengths that are not these specific wavelengths, will not pass to the detector. For the non-reacting flows, a 5\% CO$_2$ in nitrogen mixture emits IR within a 180nm bandwidth centered at 4.248$\mu$m. Placing the filter in front of the sensor allows the sensor to detect when, and for how long, the test gas, CO$_2$ passes by the sensor. Knowing how long the gas passes by the sensor allows for a direct measurement of test time in the test section. Due to the sensor's close proximity to the test section, the test time extracted from the IR data is very close to the test time for the models in the test section. An example of the voltage trace produced by the sensor using the emission method is shown in Figure \ref{fig:IRemission}. 
 
+Shown in the image are a few artifacts known about this system. Included in this voltage trace is the voltage of the pressure transducer at the same location as the IR sensor for reference. The sharp peak of the pressure signal indicates the arrival of the initial shock wave. This indicates that helium is flowing by at that time. However, there is an increase in the IR signal. The current theory is that this signal is the presence of light produced by burning diaphragm particles flying down the tube. The next spike, however, is the $CO_2$ passing by the IR source. Measuring the length of time this spike occurs over leads to the estimation of experimental test time. 
+
+%-------------------------
+%      SUBSECTION 5
+%-------------------------
+\subsection{Premature Ignition}
+
+The sensor will also be used to determine if pre-combustion occurred during a test. It is expected that if the reaction combusts upstream of the test section, it will result in a very large spike in IR signal. This will indicate that combustion did not originate at the cavity, but rather upstream of the cavity. Since the combustion tests are being used to test the flame-holding characteristics of the cavity, it is imperative that ignition originates at the cavity. 
 
 
 %---------------------------------------------------------
@@ -242,7 +253,7 @@ Further information about the system, including more detail on how the system wo
 \centering
 \includegraphics[width=\textwidth]{Figures/Circuit.png}
 \caption[Circuit Diagram for Timer Counter Box]{Circuit diagram for timer counter box}
-\label{fig:TCCircuit}
+\label{fig:timercircuit}
 \end{figure}
 
 
@@ -268,7 +279,19 @@ Further information about the system, including more detail on how the system wo
 \label{fig:IRlabel}
 \end{figure}
 
-
+%\begin{figure}
+%\centering
+%\includegraphics[height = 3in]{Figures/IRabsorption.jpg}
+%\caption[Typical IR data utilizing absorption method]{Typical IR data utilizing absorption method}
+%\label{fig:IRabsorption}
+%\end{figure}
+%
+%\begin{figure}
+%\centering
+%\includegraphics[height = 3in]{Figures/IRemission.jpg}
+%\caption[Typical IR data utilizing emission method]{Typical IR data utilizing emission method}
+%\label{fig:IRemission}
+%\end{figure}
 
 \begin{figure}
 \centering
