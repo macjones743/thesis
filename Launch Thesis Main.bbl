@@ -1,4 +1,4 @@
-\begin{thebibliography}{13}
+\begin{thebibliography}{14}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -67,6 +67,12 @@ N~Sato, A~Imamura, S~Shiba, S~Takahashi, M~Tsue, and M~Kono.
   cavity.
 \newblock \emph{Journal of Propulsion and Power}, 15\penalty0 (2):\penalty0
   358--360, 1999.
+
+\bibitem[University()]{scramjetFig}
+Stanford University.
+\newblock URL
+  \url{https://web.stanford.edu/group/fpc/cgi-bin/fpcwiki/Main/Research}.
+\newblock [Online; accessed April 26, 2016].
 
 \bibitem[Lazar et~al.(2008)Lazar, Elliott, and .~Glumac]{lazar2008control}
 Eli Lazar, Gregory Elliott, and Nick .~Glumac.
