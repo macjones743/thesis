@@ -30,31 +30,31 @@
 \contentsline {subsection}{\numberline {3.2.3}Implementation}{16}{subsection.41}
 \contentsline {section}{\numberline {3.3}High Speed Pressure Transducers}{16}{section.42}
 \contentsline {subsection}{\numberline {3.3.1}Circuit}{17}{subsection.43}
-\contentsline {subsection}{\numberline {3.3.2}Implementation and Troubleshooting}{17}{subsection.44}
-\contentsline {section}{\numberline {3.4}Infrared Sensor}{17}{section.45}
-\contentsline {subsection}{\numberline {3.4.1}Design of System}{18}{subsection.46}
-\contentsline {subsection}{\numberline {3.4.2}Set Up}{18}{subsection.47}
-\contentsline {subsection}{\numberline {3.4.3}Absorption}{19}{subsection.48}
-\contentsline {subsection}{\numberline {3.4.4}Emission}{20}{subsection.49}
-\contentsline {subsection}{\numberline {3.4.5}Premature Ignition}{21}{subsection.50}
-\contentsline {section}{\numberline {3.5}Schlieren Imaging}{21}{section.51}
-\contentsline {chapter}{\numberline {4}Experimentation}{29}{chapter.60}
-\contentsline {section}{\numberline {4.1}Phase 1}{29}{section.61}
-\contentsline {subsection}{\numberline {4.1.1}Setup and Conditions}{29}{subsection.62}
-\contentsline {section}{\numberline {4.2}Phase 2}{29}{section.63}
-\contentsline {subsection}{\numberline {4.2.1}Setup and Conditions}{29}{subsection.64}
-\contentsline {chapter}{\numberline {5}Experimental Results}{30}{chapter.65}
-\contentsline {section}{\numberline {5.1}Phase 1 - Non-Combusting Tests}{30}{section.66}
-\contentsline {subsection}{\numberline {5.1.1}Schlieren}{30}{subsection.67}
-\contentsline {subsection}{\numberline {5.1.2}IR}{30}{subsection.68}
-\contentsline {section}{\numberline {5.2}Combustion Tests}{30}{section.69}
-\contentsline {subsection}{\numberline {5.2.1}Schlieren}{30}{subsection.70}
-\contentsline {subsection}{\numberline {5.2.2}IR}{30}{subsection.71}
-\contentsline {chapter}{\numberline {6}Future Work}{31}{chapter.72}
-\contentsline {section}{\numberline {6.1}Phase 3}{31}{section.73}
-\contentsline {section}{\numberline {6.2}Suggestions for Other Improvements}{31}{section.74}
-\contentsline {subsection}{\numberline {6.2.1}Pressure Transducers Within Cavity}{31}{subsection.75}
-\contentsline {subsection}{\numberline {6.2.2}Fuel Injection into Cavities}{31}{subsection.76}
+\contentsline {subsection}{\numberline {3.3.2}Implementation and Troubleshooting}{18}{subsection.44}
+\contentsline {section}{\numberline {3.4}Infrared Sensor}{19}{section.45}
+\contentsline {subsection}{\numberline {3.4.1}Design of System}{20}{subsection.46}
+\contentsline {subsection}{\numberline {3.4.2}Set Up}{20}{subsection.47}
+\contentsline {subsection}{\numberline {3.4.3}Absorption}{21}{subsection.48}
+\contentsline {subsection}{\numberline {3.4.4}Emission}{22}{subsection.49}
+\contentsline {subsection}{\numberline {3.4.5}Premature Ignition}{23}{subsection.50}
+\contentsline {section}{\numberline {3.5}Schlieren Imaging}{23}{section.51}
+\contentsline {chapter}{\numberline {4}Experimentation}{31}{chapter.60}
+\contentsline {section}{\numberline {4.1}Phase 1}{31}{section.61}
+\contentsline {subsection}{\numberline {4.1.1}Setup and Conditions}{31}{subsection.62}
+\contentsline {section}{\numberline {4.2}Phase 2}{31}{section.63}
+\contentsline {subsection}{\numberline {4.2.1}Setup and Conditions}{31}{subsection.64}
+\contentsline {chapter}{\numberline {5}Experimental Results}{32}{chapter.65}
+\contentsline {section}{\numberline {5.1}Phase 1 - Non-Combusting Tests}{32}{section.66}
+\contentsline {subsection}{\numberline {5.1.1}Schlieren}{32}{subsection.67}
+\contentsline {subsection}{\numberline {5.1.2}IR}{32}{subsection.68}
+\contentsline {section}{\numberline {5.2}Combustion Tests}{32}{section.69}
+\contentsline {subsection}{\numberline {5.2.1}Schlieren}{32}{subsection.70}
+\contentsline {subsection}{\numberline {5.2.2}IR}{32}{subsection.71}
+\contentsline {chapter}{\numberline {6}Future Work}{33}{chapter.72}
+\contentsline {section}{\numberline {6.1}Phase 3}{33}{section.73}
+\contentsline {section}{\numberline {6.2}Suggestions for Other Improvements}{33}{section.74}
+\contentsline {subsection}{\numberline {6.2.1}Pressure Transducers Within Cavity}{34}{subsection.75}
+\contentsline {subsection}{\numberline {6.2.2}Fuel Injection into Cavities}{34}{subsection.76}
 \vspace {2em}
 \vspace {2em}
-\contentsline {chapter}{Bibliography}{32}{dummy.77}
+\contentsline {chapter}{Bibliography}{35}{dummy.77}

@@ -77,11 +77,6 @@ Burst tests were performed on several scored diaphragms of 0.045" thickness.  Th
 
 
 
-%-----------------------------------
-%	SUBSECTION 3
-%-----------------------------------
-
-\subsection{•}
 
 %----------------------------------------------------------------------------------------
 %	SECTION 2
@@ -120,7 +115,7 @@ For the modular design, a 1/8-inch deep, 1 5/8-inch long cavity was created, as 
 %-----------------------------------
 \subsection{Implementation}
 
-
+For each test, it was determined which L/D needed to be tested. After this choice was made, the corresponding insert was installed and the test section mount was prepared for the cavity model to be placed in it. Depending on which model was mounted in the test section before the cavity test, the mounting stand may have needed to be adjusted.  Since the area of interest is the cavity, it was placed at the center of the viewing window for the schlieren to focus directly on it. Once the test mount was correctly positioned, the cavity model was attached to it with three shoulder bolts. The triangle support was then attached between the model and test stand, providing extra stability when the test runs. Once the model is mounted, switching between L/D inserts is as easy as removing the test section door and three screws holding the 
 
 
 %----------------------------------------------------------------------------------------
@@ -131,6 +126,8 @@ For the modular design, a 1/8-inch deep, 1 5/8-inch long cavity was created, as 
 
 Placed along the tube at various locations are piezoelectric pressure transducers. These pressure transducers provide both analog and digital data for each test run. The analog data allows for the observation of shock strength and the digital data allows for the calculation of shock velocity. The initial shock wave produced propagates down the tube. When the shock passes by one of these sensors, it registers as a very sharp increase in pressure. Knowing the time at which these shocks arrive at the various transducer locations, along with the location of the transducers relative to each other allows for the shock speed calculation. 
 
+Ideally, calculating the time step between the arrival of each shock could be done by observing the time between the sharp spike in the analog pressure signal. However, to achieve a more accurate calculation of the time, a digital National Instruments card with a maximum sampling frequency of \textbf{Insert sampling Frequency} was used. The faster sampling frequency allows the small time step to be calculated far more accurately than the analog National Instruments card used for the analog pressure signals. 
+
 In order to produce the digital signal required for the LabVIEW timer counter program to calculate the time between signals, a simple analog to digital circuit was designed. The design of the circuit was based off of previous work done by Helen Hutches \cite{Hutchens2015}. This circuit, as shown in Figure \ref{fig:timercircuit}, produces a 5V signal when an analog voltage is higher than a certain threshold. This threshold reference voltage is determined by three potentiometers connected to the circuit. The three potentiometers allow three different reference voltages to be set for up to six pressure transducer signals. When the analog voltage is lower than this reference voltage, the output of the circuit is 0V. This allows the digital data acquisition card to read either a HIGH (5V) signal or a LOW (0V) signal and interpret that as a digital signal. 
 
 This digital signal is also used to trigger the camera to record. The LabVIEW program, once getting a signal from a specified pressure transducer will generate a 5V TTL pulse. 
@@ -140,7 +137,9 @@ This digital signal is also used to trigger the camera to record. The LabVIEW pr
 %-----------------------------------------------------------
 
 \subsection{Circuit}
+The circuit operates using three op-amps and one pull up resistor. The op-amps, as shown in the center of Figure \ref{fig:timercircuit}, read the signal from the potentiometers. The voltage level, between 0 and 5 volts, from the potentiometer is set by the user. The op-amp compares this voltage to the voltage signal received through the BNC connectors. These BNC connectors are the analog voltage from the pressure transducers along the tube. If the voltage coming from the pressure transducers is below the voltage set by the user, the output of the circuit is 0V or a LOW digital signal. If the voltage is above this set voltage, the output of the circuit is 5V or a HIGH digital signal. 
 
+The purpose of this circuit is to convert the analog signal sent by the pressure transducers into a digital pulse that can be read by the digital card. The potentiometers are put in place so the digital pulse is only sent when the shock wave passes by the transducer, rather than noise actuating the digital signal to be sent. Reliable results have been achieved with this circuit, but there are some cases in which this system has failed, but in the next section, it will be explained how to fix some of the more common problems and check for specific errors.
 
 
 %----------------------------------------------------------
@@ -149,7 +148,9 @@ This digital signal is also used to trigger the camera to record. The LabVIEW pr
 
 \subsection{Implementation and Troubleshooting}
 
+When using the timer counter box, make sure the box is plugged into the power supply. Once the box has power, turn on the power supply associated with the inverting circuit. Once these are powered, the blue amplifier boxes should be turned on to supply power to the transducers. Set the appropriate gains on these boxes. Once the physical systems are powered and ready, run the two LabVIEW programs for the capturing of the digital signals as well as the analog signals. The analog program filename is ''BasicHighSpeedOscillosope-fixed.vi'' and the digital program filename is ''CountersWorking.vi'' For the analog signal, an input is required for sampling rate and time to take data. The typical sampling rate and time for tests is 1MHz and 10,000 $\mu$s. The digital program asks for a user input of ''milliseconds to wait.'' This is the amount of time the program should wait until sending the 5V TTL pulse to the camera. Typically, this value is set to 0. 
 
+One common problem with this circuit is that no digital signal gets sent from the circuit itself. To check for this, use a function generator and an oscilloscope. Hook up the oscilloscope to the output of the box and the output of the function generator. Attach the function generator to the corresponding BNC connector. A T-connector is needed to split the output signal from the function generator. Send a 5V amplitude sine wave from the function generator. The corresponding signal from the box should be a square wave. If there is no square wave present, check that the potentiometer is not too high or too low. The square wave should get wider or narrower depending on the position of the potentiometer. If there is still no signal coming from the box, there may be a burnt out op-amp. If, however, there is no signal coming from any of the outputs, it is unlikely all of the op-amps burned out. In this case, there may be a wiring issue. For this, check continuity between the signal coming in and the signal coming out to make sure voltages at each connection are what they are supposed to be. Some alteration of the circuit may be required in this case. However, that is unlikely, and the problem is likely to be that the potentiometer level was set too high.
 
 
 %---------------------------------------------------------
@@ -201,12 +202,14 @@ The second method is infrared emission. As gases are heated, they emit IR radiat
 
 Shown in the image are a few artifacts known about this system. Included in this voltage trace is the voltage of the pressure transducer at the same location as the IR sensor for reference. The sharp peak of the pressure signal indicates the arrival of the initial shock wave. This indicates that helium is flowing by at that time. However, there is an increase in the IR signal. The current theory is that this signal is the presence of light produced by burning diaphragm particles flying down the tube. The next spike, however, is the $CO_2$ passing by the IR source. Measuring the length of time this spike occurs over leads to the estimation of experimental test time. 
 
+It is also noted that the voltage trace does not exhibit sharp spikes in signal. This is due to the slit width, which was too open for this test. This slit width allowed forward-scattered light to be picked up by the sensor. It was assumed that the true start of the signal is halfway up the slope. However, it is important to continue fine-tuning the system and the slit width in order to eliminate this uncertainty.
+
 %-------------------------
 %      SUBSECTION 5
 %-------------------------
 \subsection{Premature Ignition}
 
-The sensor will also be used to determine if pre-combustion occurred during a test. It is expected that if the reaction combusts upstream of the test section, it will result in a very large spike in IR signal. This will indicate that combustion did not originate at the cavity, but rather upstream of the cavity. Since the combustion tests are being used to test the flame-holding characteristics of the cavity, it is imperative that ignition originates at the cavity. 
+The IR sensor will also be used to determine if pre-combustion occurred during a test. It is expected that if the reaction combusts upstream of the test section, it will result in a very large spike in IR signal. This will indicate that combustion did not originate at the cavity, but rather upstream of the cavity. Since the combustion tests are being used to test the flame-holding characteristics of the cavity, it is imperative that ignition originates at the cavity. 
 
 
 %---------------------------------------------------------
