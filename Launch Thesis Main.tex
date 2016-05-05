@@ -126,8 +126,7 @@ Chemical and Biomolecular Engineering\\
 I, \authornames, declare that this thesis titled, '\ttitle' and the work presented in it are my own. I confirm that:
 
 \begin{itemize} 
-\item[\tiny{$\blacksquare$}] This work was done wholly or mainly while in candidature for a research degree at this University.
-\item[\tiny{$\blacksquare$}] Where any part of this thesis has previously been submitted for a degree or any other qualification at this College or any other institution, this has been clearly stated.
+\item[\tiny{$\blacksquare$}] This work was done wholly or mainly while in candidature for honors in Mechanical Engineering at Lafayette College.
 \item[\tiny{$\blacksquare$}] Where I have consulted the published work of others, this is always clearly attributed.
 \item[\tiny{$\blacksquare$}] Where I have quoted from the work of others, the source is always given. With the exception of such quotations, this thesis is entirely my own work.
 \item[\tiny{$\blacksquare$}] I have acknowledged all main sources of help.
@@ -169,7 +168,11 @@ Brian Fantana
 
 \abstract{\addtocontents{toc}{\vspace{0 em}} % Add a gap in the Contents, for aesthetics
 
-The Thesis Abstract is written here (and usually kept to just this page or so \ldots)
+Mixing and combustion are important aspects of high speed, air breathing engines. These engines, similar to commercial jet engines, use the atmospheric air as the oxidizer in combustion reactions. However, as the speed of the aircraft increases, the time which the fuel and air can mix into the proper proportions for combustion decreases. For flight speeds of Mach 7 and higher, this time could be well under 1ms. The need for enhanced mixing techniques that allow the fuel and air to mix into the proper conditions in these engines has sparked much research. One proposed method to enhance mixing is a rectangular cavity downstream of the fuel injectors. This cavity has been shown to be a promising means for mixing and flame-holding. 
+
+Also present in these cavities are strong acoustic waves. As the fuel and air travel over these cavities, pressure waves propagate from the back wall to the front wall. Because of the closed nature of these cavities, these acoustic waves oscillate. These acoustic waves could have the potential to enhance mixing within these cavities further, which could aid in the combustion process as conditions within the engine become less ideal. If the fuel and air proportions are not correct, the combustion in the engine could stop, resulting in a stalled engine. However, with the enhanced mixing of the cavity acoustics, the engine could re-initiate combustion, saving the engine and aircraft. 
+
+Utilizing the newly installed expansion tube facility, tests were run with cavity models at engine conditions similar to the conditions that would be experienced by these supersonic, air breathing engines. This investigation will attempt to understand the mechanics of these acoustic waves as they affect mixing and combustion at non-ideal conditions. 
 }
 
 \clearpage % Start a new page
@@ -182,7 +185,16 @@ The Thesis Abstract is written here (and usually kept to just this page or so \l
 
 \acknowledgements{\addtocontents{toc}{\vspace{0 em}} % Add a gap in the Contents, for aesthetics
 
-The acknowledgements and the people to thank go here, don't forget to include your project advisor\ldots
+There are a few people who I would like to acknowledge. First, I would like to acknowledge my research partner, Ray Sanzi. Thank you, Ray, for helping me learn about various compressible flow topics as well as assist me in running tests. I also want to thank you for all the work you put in for our group presentations. We make a pretty good tag team, if I do say so myself. I do not think I could have done this without you. 
+
+I would also like to thank my research advisor, Professor Rossmann. With your constant support and overall excitement about this project, I was inspired to complete this thesis. Although I never once got a "Good job, Mac" explicitly, I know you were always thinking it. Maybe I'll get that from you in writing one day. 
+
+And to the rest of the LAUNCH team, I wish you good luck in your own projects. Know that I am always an email away if you need any clarification or advice. I hope this thesis is sufficient for anyone wishing to continue this research project in the future.
+
+\vspace{11pt}
+Cheers,
+
+Mac
 }
 \clearpage % Start a new page
 
@@ -247,16 +259,18 @@ Empirical Constant & $k$ & $=$ & $0.57$ (for cavities with L/D $>$ 4)\\
 \listofnomenclature{lll} % Include a list of Symbols (a three column table)
 {
 $m$ & mode number &  \\
-$M_{\infty}$ & Freestream Mach Number  \\
-$U_{\infty}$ & Freestream Velocity & m/s \\
+$M_{\infty}$ & Freestream Mach Number & \\
+$Re_x$ & Reynolds number & \\
+$U_{\infty}$ & Freestream Velocity & $m/s$ \\
 % Symbol & Name & Unit \\
 
 & & \\ % Gap to separate the Roman symbols from the Greek
 
-$\gamma_{\infty}$ & Freestream Specific Heat Ratio & \\
-% Symbol & Name & Unit \\
+$\gamma_{\infty}$ & Freestream Specific Heat Ratio \\
+$\rho$ & Density of test gas & $kg/m^3$\\
+$\mu$ & Viscosity of test gas & $kg/m-s$ \\
+% Symbol & Name & Unit \\}
 }
-
 %----------------------------------------------------------------------------------------
 %	DEDICATION
 %----------------------------------------------------------------------------------------
@@ -282,9 +296,9 @@ $\gamma_{\infty}$ & Freestream Specific Heat Ratio & \\
 
 %\input{Chapters/Chapter1}
 \input{Chapters/Chapter2} 
-\input{Chapters/Chapter3}
+%\input{Chapters/Chapter3}
 \input{Chapters/Chapter4} 
-\input{Chapters/Chapter5} 
+%\input{Chapters/Chapter5} 
 \input{Chapters/Chapter6} 
 \input{Chapters/Chapter7} 
 
