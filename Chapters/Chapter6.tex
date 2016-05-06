@@ -31,11 +31,11 @@ Also captured by the schlieren imaging system is an indication of residence time
 
 \subsection{IR}
 
-For some of these tests, IR emission data was captured to measure test time of the tests. The test times extracted from the IR data are displayed in Table \ref{Table:IRtest}. Of these test times, they all correspond to each other, which implies that conditions were reasonably the same for all tests. The theoretical test time, which was extracted from an X-T diagram, as shown in Figure \ref{fig:XT}, was about 559 $\mu$s for theses tests. However, the compressible flow equations used in generating these X-T diagrams assume the flow to be inviscid. However, due to viscous effects that are present in the tube, the experimental test time will be less than the theoretical test time, which is consistent with the data.
+For some of these tests, IR emission data was captured to measure test time of the tests. The test times extracted from the IR data are displayed in Table \ref{Table:IRtest}. Of the test times which include nitrogen, they all correspond well to each other, which implies that conditions were reasonably the same for all tests.  The theoretical test time, which was extracted from an X-T diagram, as shown in Figure \ref{fig:XT}, was about 559 $\mu$s for theses tests. However, the compressible flow equations used in generating these X-T diagrams assume the flow to be inviscid. However, due to viscous effects that are present in the tube, the experimental test time will be less than the theoretical test time, which is consistent with the data. It is important to note that even the tests without the CO$_2$ signal, the heat signal being picked up by the IR sensor was indicative of test time, as the test times extracted from these traces are consistent with the test times extracted from the traces with the CO$_2$ mixed with nitrogen. 
 
 \begin{table}[]
 \centering
-\caption[Test time calculated with IR signal]{Test time from IR signal. M$_\infty$=2.34, Theoretical test time = 559$\mu$s.}
+\caption[Test time calculated with IR signal]{Test time from IR signal for various test gases. P4 = 225psi, P1 = 0.5 psi, P$_e$ = 0.25 psi.}
 \label{Table:IRtest}
 \begin{tabular}{c|c|l}
 
@@ -44,14 +44,14 @@ Test Number & Test Time ($\mu$s) & Test Gas\\ \hline
 048         & 443        &Nitrogen     \\ 
 049         & 441        &Nitrogen     \\ 
 050         & 424        &Nitrogen     \\ 
-056			& 			 &Nitrogen + CO$_2$	\\
-057			& 			 &Nitrogen + CO$_2$  \\
-058			& 			 &2H$_2$ + O$_2$ + 8N$_2$			   \\
-059			& 			 &2H$_2$ + O$_2$ + 8N$_2$ followed by Nitrogen + CO$_2$			   \\
+055			& 429		 &Nitrogen + CO$_2$	\\
+056			& 434		 &Nitrogen + CO$_2$  \\
+057			& 561 		 &2H$_2$ + O$_2$ + 8N$_2$			   \\
+058			& 333		 &2H$_2$ + O$_2$ + 8N$_2$ followed by Nitrogen + CO$_2$			   \\
 \end{tabular}
 \end{table}
 
-Each test produced an IR trace similar to the one shown in Figure\ref{fig:IRtrace}. As can be seen in this trace, the slit width was too wide for the test, so the IR sensor captured some light scattered forward, as indicated by the sloped increase in voltage signal. The signal also includes a lower "shelf" signal. This level is currently thought to be the light produced by burning diaphragm particles traveling down the tube. Regardless, the test gas is indicated by the highest level of the signal. Test time is taken to be the time between points halfway between the lowest and highest value of the test signal. With this method, a consistent measure of test time can be achieved regardless of the amount of forward scattering of light. 
+Each test produced an IR trace similar to the one shown in Figure\ref{fig:IRtrace}. As can be seen in this trace, the slit width was too wide for the test, so the IR sensor captured some light scattered forward, as indicated by the sloped increase in voltage signal. The test gas is indicated by the highest level of the signal. Test time is taken to be the time between points on the outside of the nearly flat level of signal. With this method, a consistent measure of test time can be achieved regardless of the amount of forward scattering of light. At this highest level, it is certain that there is is only test gas passing by the sensor. With this method, the estimates of test time are conservative, but consistent.
 
 
 %----------------------------------------------------------------------------------------
@@ -105,21 +105,21 @@ Each test produced an IR trace similar to the one shown in Figure\ref{fig:IRtrac
 \begin{figure}
 \centering
 \includegraphics[height = 3in]{Figures/CO2-2.jpg}
-\caption[IR Signal for Test 046]{IR Signal for Test 056. P4 = 225psi, P1=0.5psi, P$_e$=0.25psi. The test gas was a 95\% Nitrogen and 5\% CO$_2$ mixture. Test Time = 399 $\mu$s.}
+\caption[IR Signal for Test 046]{IR Signal for Test 056. P4 = 225psi, P1=0.5psi, P$_e$=0.25psi. The test gas was a 95\% nitrogen and 5\% CO$_2$ mixture. Test Time = 434 $\mu$s.}
 \label{fig:IRTrace}
 \end{figure}
 
 \begin{figure}
 \centering
 \includegraphics[height = 3in]{Figures/H2.jpg}
-\caption[IR Signal for Test 046]{IR Signal for Test 057. P4 = 225psi, P1=0.75psi, P$_e$=0.25psi. The test gas was a hydrogen and oxygen mixture followed by a 95\% Nitrogen and 5\% CO$_2$ mixture. Test Time = 399 $\mu$s.}
+\caption[IR Signal for Test 046]{IR Signal for Test 057. P4 = 225psi, P1=0.75psi, P$_e$=0.25psi. The test gas was a hydrogen and oxygen mixture followed by a 95\% nitrogen and 5\% CO$_2$ mixture. Test Time = 561 $\mu$s.}
 \label{fig:IRTrace2}
 \end{figure}
 
 \begin{figure}
 \centering
 \includegraphics[height = 3in]{Figures/H2andCo2.jpg}
-\caption[IR Signal for Test 046]{IR Signal for Test 058. P4 = 225psi, P1=0.5psi, P$_e$=0.25psi. The test gas was a 95\% Nitrogen and 5\% CO$_2$ mixture. Test Time = 399 $\mu$s.}
+\caption[IR Signal for Test 046]{IR Signal for Test 058. P4 = 225psi, P1=0.5psi, P$_e$=0.25psi. The test gas was a 95\% Nitrogen and 5\% CO$_2$ mixture. Test Time = 333 $\mu$s.}
 \label{fig:IRTrace3}
 \end{figure}
 
