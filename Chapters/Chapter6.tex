@@ -37,13 +37,17 @@ For some of these tests, IR emission data was captured to measure test time of t
 \centering
 \caption[Test time calculated with IR signal]{Test time from IR signal. M$_\infty$=2.34, Theoretical test time = 559$\mu$s.}
 \label{Table:IRtest}
-\begin{tabular}{c|c}
+\begin{tabular}{c|c|l}
 
-Test Number & Test Time ($\mu$s) \\ \hline
-046         & 399                      \\ 
-048         & 443                      \\ 
-049         & 441                      \\ 
-050         & 424                      \\ 
+Test Number & Test Time ($\mu$s) & Test Gas\\ \hline
+046         & 399        &Nitrogen     \\ 
+048         & 443        &Nitrogen     \\ 
+049         & 441        &Nitrogen     \\ 
+050         & 424        &Nitrogen     \\ 
+056			& 			 &Nitrogen + CO$_2$	\\
+057			& 			 &Nitrogen + CO$_2$  \\
+058			& 			 &2H$_2$ + O$_2$ + 8N$_2$			   \\
+059			& 			 &2H$_2$ + O$_2$ + 8N$_2$ followed by Nitrogen + CO$_2$			   \\
 \end{tabular}
 \end{table}
 
@@ -87,7 +91,7 @@ Each test produced an IR trace similar to the one shown in Figure\ref{fig:IRtrac
 \centering
 \includegraphics[width = \textwidth]{Figures/cavResTime.jpg}
 \caption[Time-correlated Schlieren image of cavity. L/D = 5.]{Time-correlated Schlieren image of cavity. L/D = 5. 9 frames out of 68 are shown. Residence time = 850 $\mu$s.}
-\label{fig:9}
+\label{fig:ResTime}
 \end{figure}
 \clearpage
 
@@ -100,8 +104,22 @@ Each test produced an IR trace similar to the one shown in Figure\ref{fig:IRtrac
 
 \begin{figure}
 \centering
-\includegraphics[height = 3in]{Figures/Emission.jpg}
-\caption[IR Signal for Test 046]{IR Signal for Test 046. P4 = 225psi, P1=0.5psi, P$_e$=0.25psi. The test gas was a 95\% Nitrogen and 5\% CO$_2$ mixture. Test Time = 399 $\mu$s.}
+\includegraphics[height = 3in]{Figures/CO2-2.jpg}
+\caption[IR Signal for Test 046]{IR Signal for Test 056. P4 = 225psi, P1=0.5psi, P$_e$=0.25psi. The test gas was a 95\% Nitrogen and 5\% CO$_2$ mixture. Test Time = 399 $\mu$s.}
 \label{fig:IRTrace}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[height = 3in]{Figures/H2.jpg}
+\caption[IR Signal for Test 046]{IR Signal for Test 057. P4 = 225psi, P1=0.75psi, P$_e$=0.25psi. The test gas was a hydrogen and oxygen mixture followed by a 95\% Nitrogen and 5\% CO$_2$ mixture. Test Time = 399 $\mu$s.}
+\label{fig:IRTrace2}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[height = 3in]{Figures/H2andCo2.jpg}
+\caption[IR Signal for Test 046]{IR Signal for Test 058. P4 = 225psi, P1=0.5psi, P$_e$=0.25psi. The test gas was a 95\% Nitrogen and 5\% CO$_2$ mixture. Test Time = 399 $\mu$s.}
+\label{fig:IRTrace3}
 \end{figure}
 

@@ -10,7 +10,6 @@
 \contentsline {chapter}{Abbreviations}{ix}{dummy.10}
 \contentsline {chapter}{Physical Constants}{x}{dummy.13}
 \contentsline {chapter}{Symbols}{xi}{dummy.16}
-\vspace {1em}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.19}
 \contentsline {section}{\numberline {1.1}Motivation}{1}{section.20}
 \contentsline {section}{\numberline {1.2}Background}{4}{section.21}
@@ -33,16 +32,16 @@
 \contentsline {subsection}{\numberline {2.4.2}Set Up}{23}{subsection.47}
 \contentsline {subsection}{\numberline {2.4.3}Absorption}{24}{subsection.48}
 \contentsline {subsection}{\numberline {2.4.4}Emission}{25}{subsection.49}
-\contentsline {subsection}{\numberline {2.4.5}Premature Ignition}{26}{subsection.50}
+\contentsline {subsection}{\numberline {2.4.5}Premature Ignition}{25}{subsection.50}
 \contentsline {section}{\numberline {2.5}Schlieren Imaging}{26}{section.51}
-\contentsline {chapter}{\numberline {3}Experimental Results}{35}{chapter.62}
-\contentsline {section}{\numberline {3.1}Non-Combusting Tests}{35}{section.63}
-\contentsline {subsection}{\numberline {3.1.1}Schlieren}{35}{subsection.64}
-\contentsline {subsection}{\numberline {3.1.2}IR}{36}{subsection.65}
-\contentsline {chapter}{\numberline {4}Future Work}{42}{chapter.74}
-\contentsline {section}{\numberline {4.1}Future Testing}{42}{section.75}
-\contentsline {section}{\numberline {4.2}Suggestions for Other Improvements}{43}{section.76}
-\contentsline {subsection}{\numberline {4.2.1}Fuel Injection into Cavities}{44}{subsection.77}
+\contentsline {chapter}{\numberline {3}Experimental Results}{36}{chapter.63}
+\contentsline {section}{\numberline {3.1}Non-Combusting Tests}{36}{section.64}
+\contentsline {subsection}{\numberline {3.1.1}Schlieren}{36}{subsection.65}
+\contentsline {subsection}{\numberline {3.1.2}IR}{37}{subsection.66}
+\contentsline {chapter}{\numberline {4}Future Work}{44}{chapter.77}
+\contentsline {section}{\numberline {4.1}Future Testing}{44}{section.78}
+\contentsline {section}{\numberline {4.2}Suggestions for Other Improvements}{45}{section.79}
+\contentsline {subsection}{\numberline {4.2.1}Fuel Injection into Cavities}{46}{subsection.80}
 \vspace {2em}
 \vspace {2em}
-\contentsline {chapter}{Bibliography}{45}{dummy.78}
+\contentsline {chapter}{Bibliography}{47}{dummy.81}

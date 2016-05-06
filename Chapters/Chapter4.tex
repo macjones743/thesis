@@ -23,7 +23,7 @@ The expansion tube consists of four sections, which are highlighted in Figure \r
 
 The driver section is contained at a high pressure at the start of a test. This section is rated to be filled up to 800 psi. Non-combusting tests performed were run with a driver pressure of 225 psi. With higher pressures, faster test velocities of the test gas can be achieved. 
 
-The double diaphragm serves as a starting mechanism for the experiments. It is filled to an intermediate pressure about half the driver pressure. This section is a very small volume (\textbf{place volume here}), which when vented, creates a large pressure drop across the most upstream diaphragm, causing it to break. The breaking of the diaphragm begins a chain reaction, starting the test. 
+The double diaphragm serves as a starting mechanism for the experiments. It is filled to an intermediate pressure about half the driver pressure. This section is a very small volume, which when vented, rapidly creates a large pressure drop across the most upstream diaphragm, causing it to break. The breaking of the diaphragm begins a chain reaction, starting the test. 
 
 Once the test begins, the test gas, which is contained in the driven section at a sub-atmospheric pressure, is accelerated by the driver gas. The test gas travels down the tube, compressed and shock heated until it breaks through the last diaphragm between the driven and expansion sections. This last section differentiates an expansion tube from a shock tube. With the addition of the last diaphragm, the expansion section can be kept at an even lower pressure than the driven section. When the diaphragm between these sections break, the test gas experiences  expansion and unsteady acceleration, allowing faster freestream velocities and higher Mach numbers in the test section. 
 
@@ -108,9 +108,9 @@ Re_x = \frac{\rho U_\infty x}{\mu}
 \label{eq:Re}
 \end{equation}
 
-At the upstream end of the cavity model, there exists a wedge. Flow over a flat plate leading up to the cavity was desired. The wedge was designed in order to redirect any shock waves away from the cavity. These shock waves have the ability to adversely affect test results if they interact with the cavity. Calculating shock wave angles for several wedge angles and calculating where the shocks would reflect off the walls of the test section, a wedge angle of \textbf{WEDGE ANGLE HERE} was chosen. This angle created a shock of \textbf{SHOCK ANGLE HERE}, which, when reflected through the shear layers surrounding the expansion tube core flow, did not reflect into the cavity.
+At the upstream end of the cavity model, there exists a wedge. Flow over a flat plate leading up to the cavity was desired. The wedge was designed in order to redirect any shock waves away from the cavity. These shock waves have the ability to adversely affect test results if they interact with the cavity. Calculating shock wave angles for several wedge angles and calculating where the shocks would reflect off the walls of the test section, a wedge angle of 20$^\circ$ was chosen. This angle created a shock of about 46$^\circ$ for a freestream mach number M$_\infty$ of 2.5 and a specific heat ratio, $\gamma$ of 1.4, which are conditions similar to the ones that will be run for the cavities. When reflected through the shear layers surrounding the expansion tube core flow, the oblique shock produced would not reflect into the cavity.
 
-The stability of the model was also an important design consideration. With the flow conditions experienced in the test section, a stagnation pressure of nearly 1,000 psi could be experienced by the model. With the model's front wedge shape, a net force in the vertical direction of nearly \textbf{Force Here}, coupled with a relatively large moment arm has the potential to result in some movement from the cavity. To ensure the bending was as minimal as possible, a triangular brace was manufactured to secure the base of the cavity to the test model stand. This reduced the effective moment arm to provide structural support and stability to the model. This triangular support is pictured in the test section assembly in Figure \ref{fig:cavTestSection}.
+The stability of the model was also an important design consideration. With the flow conditions experienced in the test section, a stagnation pressure of nearly 1,000 psi could be experienced by the model. With the model's front wedge shape, a net force in the vertical direction of nearly 3,300 lbs., coupled with a relatively large moment arm has the potential to result in some movement from the cavity. Initial calculations of bending resulted in a maximum deflection of around 0.05 inches. These calculations assumed the model to have a uniform rectangular cross section and all the force was in the center of the wedge. To ensure the bending was as minimal as possible, a triangular brace was manufactured to secure the base of the cavity to the test model stand. This reduced the effective moment arm to provide structural support and stability to the model. This triangular support is pictured in the test section assembly in Figure \ref{fig:cavTestSection}.
 
 
 %-----------------------------------
@@ -218,7 +218,7 @@ One method of data capturing that can be used is infrared absorption. The absorp
 
 As gases are heated, they emit IR radiation at different wavelengths. Using a filter, other wavelengths that are not these specific wavelengths, will not pass to the detector. For the non-reacting flows, a 5\% CO$_2$ in nitrogen mixture emits IR within a 180nm bandwidth centered at 4.248$\mu$m. Placing the filter in front of the sensor allows the sensor to detect when, and for how long, the test gas, CO$_2$ passes by the sensor. Knowing how long the gas passes by the sensor allows for a direct measurement of test time in the test section. Due to the sensor's close proximity to the test section, the test time extracted from the IR data is very close to the test time for the models in the test section. An example of the voltage trace produced by the sensor using the emission method is shown in Figure \ref{fig:IRemission}. 
 
-Shown in the image are a few artifacts known about this system. Included in this voltage trace is the voltage of the pressure transducer at the same location as the IR sensor for reference. The sharp peak of the pressure signal indicates the arrival of the initial shock wave. This indicates that helium is flowing by at that time. However, there is also an increase in the IR signal. The current hypothesis is that this signal is the presence of light produced by burning diaphragm particles flying down the tube. The next spike, however, is the $CO_2$ passing by the IR source. Measuring the length of time this spike occurs over leads to the estimation of experimental test time. 
+
 
 It is also noted that the voltage trace does not exhibit sharp spikes in signal. This is due to the size of the slit width, which was too open for this test. This slit width allowed forward-scattered light to be picked up by the sensor. It was assumed that the true start of the signal is halfway up the slope. However, it is important to continue fine-tuning the system and the slit width in order to eliminate this uncertainty.
 
@@ -267,6 +267,13 @@ Further information about the system, including more detail on how the system wo
 
 \begin{figure}
 \centering
+\includegraphics[height = 3in]{Figures/cavPhoto.jpg}
+\caption[Cavity in Test Section]{Picture of cavity mounted in the test section.}
+\label{fig:cavTestSection}
+\end{figure}
+
+\begin{figure}
+\centering
 \includegraphics[height = 3in]{Figures/CavityInserts.jpg}
 \caption[Cavity Model with Inserts]{3D rendering of cavity with various inserts to alter L/D}
 \label{fig:cavInserts}
@@ -311,7 +318,7 @@ Further information about the system, including more detail on how the system wo
 
 \begin{figure}
 \centering
-\includegraphics[height = 3in]{Figures/IREmission.png}
+\includegraphics[height = 3in]{Figures/Co2NoPressure.jpg}
 \caption[Typical IR data utilizing emission method]{Typical IR data utilizing emission method}
 \label{fig:IRemission}
 \end{figure}
