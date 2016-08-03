@@ -1,0 +1,337 @@
+d%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Masters/Doctoral Thesis 
+% LaTeX Template
+% Version 1.43 (17/5/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original authors:
+% Steven Gunn 
+% http://users.ecs.soton.ac.uk/srg/softwaretools/document/templates/
+% and
+% Sunil Patel
+% http://www.sunilpatel.co.uk/thesis-template/
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Note:
+% Make sure to edit document variables in the Thesis.cls file
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt, oneside]{LaunchThesis} % The default font size and one-sided printing (no margin offsets)
+
+\graphicspath{{Pictures/}} % Specifies the directory where pictures are stored
+\usepackage[usenames,dvipsnames]{xcolor}
+\definecolor{LafMaroon}{cmyk}{0.1,0.97,0.61,0.48}
+\usepackage[square, numbers, comma, sort&compress]{natbib} % Use the natbib reference package - read up on this to edit the reference style; if you want text (e.g. Smith et al., 2012) for the in-text references (instead of numbers), remove 'numbers' 
+\hypersetup{urlcolor= LafMaroon, colorlinks=true} % Colors hyperlinks in blue - change to black if annoying
+\title{\ttitle} % Defines the thesis title - don't touch this
+
+\begin{document}
+
+
+\frontmatter % Use roman page numbering style (i, ii, iii, iv...) for the pre-content pages
+
+\setstretch{1.3} % Line spacing of 1.3
+
+% Define the page headers using the FancyHdr package and set up for one-sided printing
+\fancyhead{} % Clears all page headers and footers
+\rhead{\thepage} % Sets the right side header to show the page number
+\lhead{} % Clears the left side page header
+
+\pagestyle{fancy} % Finally, use the "fancy" page style to implement the FancyHdr headers
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % New command to make the lines in the title page
+
+% PDF meta-data
+\hypersetup{pdftitle={\ttitle}}
+\hypersetup{pdfsubject=\subjectname}
+\hypersetup{pdfauthor=\authornames}
+\hypersetup{pdfkeywords=\keywordnames}
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\begin{titlepage}
+\begin{center}
+
+\href{http://www.lafayette.edu}{\includegraphics[width = 0.35\textwidth,trim = 0mm 80mm 0mm 80mm, clip]{LAF_logo_w_seal_color.pdf}}\\[0.2cm] 
+
+%\textsc{\LARGE \univname}\\[0.5cm] % University name
+\textsc{\Large Senior Honors Thesis}\\[0.2cm] % Thesis type 
+\textsc{\Large  \deptname}\\[0.2cm] % Thesis type
+
+\HRule \\[0.2cm] % Horizontal line
+{\setstretch{1.6}
+{\huge \bfseries \ttitle}\\[-0.2cm]}% Thesis title
+\HRule \\[0.6 cm] % Horizontal line
+ 
+\begin{minipage}{0.4\textwidth}
+\begin{flushleft} \large
+\emph{Author:}\\
+\href{http://sites.lafayette.edu/rossmant/student-researchers/}{\authornames} % Author name - remove the \href bracket to remove the link
+\end{flushleft}
+\end{minipage}
+\begin{minipage}{0.4\textwidth}
+\begin{flushright} \large
+\emph{Advisor:} \\
+\href{http://sites.lafayette.edu/rossmant}{\supname} % Supervisor name - remove the \href bracket to remove the link  
+\end{flushright}
+\end{minipage}\\[.6cm]
+
+
+\begin{minipage}{0.8\textwidth}
+\begin{center}
+Thesis Committee:\\
+\begin{raggedleft}
+\textbf{Dr. Tobias Rossmann}, Chair\\
+Mechanical Engineering\\
+\textbf{Dr. Daniel Sabatino}\\
+Mechanical Engineering\\
+\textbf{Dr. James Schaefer}\\
+Chemical and Biomolecular Engineering\\
+\end{raggedleft}
+\end{center}
+\end{minipage}\\[1cm]
+%\null \vfill
+\large \textit{A thesis submitted in fulfillment of the requirements\\ for  \degreename}\\[0.0cm] % University requirement text
+\textit{in the}\\[0.2cm]
+%\groupname\\\% Research group name and department name
+\href{http://sites.lafayette.edu/rossmant/research}{\includegraphics[width = 0.60\textwidth,trim = 0mm 70mm 0mm 70mm, clip]{Launch_Circle_Logo.pdf}}\\
+ %\GROUPNAME\\[0.2cm] 
+{\large \today}\\[0cm] % Date
+
+ 
+\vfill
+\end{center}
+
+\end{titlepage}
+
+%----------------------------------------------------------------------------------------
+%	DECLARATION PAGE
+%	Your institution may give you a different text to place here
+%----------------------------------------------------------------------------------------
+
+\Declaration{
+
+\addtocontents{toc}{\vspace{0 em}} % Add a gap in the Contents, for aesthetics
+
+I, \authornames, declare that this thesis titled, '\ttitle' and the work presented in it are my own. I confirm that:
+
+\begin{itemize} 
+\item[\tiny{$\blacksquare$}] This work was done wholly or mainly while in candidature for honors in Mechanical Engineering at Lafayette College.
+\item[\tiny{$\blacksquare$}] Where I have consulted the published work of others, this is always clearly attributed.
+\item[\tiny{$\blacksquare$}] Where I have quoted from the work of others, the source is always given. With the exception of such quotations, this thesis is entirely my own work.
+\item[\tiny{$\blacksquare$}] I have acknowledged all main sources of help.
+\item[\tiny{$\blacksquare$}] Where the thesis is based on work done by myself jointly with others, I have made clear exactly what was done by others and what I have contributed myself.\\
+\end{itemize}
+ 
+Signed:\\
+\rule[1em]{25em}{0.5pt} % This prints a line for the signature
+ 
+Date:\\
+\rule[1em]{25em}{0.5pt} % This prints a line to write the date
+}
+
+\clearpage % Start a new page
+
+%----------------------------------------------------------------------------------------
+%	QUOTATION PAGE
+%----------------------------------------------------------------------------------------
+
+\pagestyle{empty} % No headers or footers for the following pages
+
+\null\vfill % Add some space to move the quote down the page a bit
+
+\textit{``60\% of the time, it works every time."}
+
+\begin{flushright}
+Brian Fantana
+\end{flushright}
+
+\vfill\vfill\vfill\vfill\vfill\vfill\null % Add some space at the bottom to position the quote just right
+
+\clearpage % Start a new page
+
+%----------------------------------------------------------------------------------------
+%	ABSTRACT PAGE
+%----------------------------------------------------------------------------------------
+
+\addtotoc{Abstract} % Add the "Abstract" page entry to the Contents
+
+\abstract{\addtocontents{toc}{\vspace{0 em}} % Add a gap in the Contents, for aesthetics
+
+Mixing and combustion are important aspects of high speed, air breathing engines. These engines, similar to commercial jet engines, use the atmospheric air as the oxidizer in combustion reactions. However, as the speed of the aircraft increases, the time which the fuel and air can mix into the proper proportions for combustion decreases. For flight speeds of Mach 7 and higher, this time could be well under 1ms. The need for enhanced mixing techniques that allow the fuel and air to mix into the proper conditions in these engines has sparked much research. One proposed method to enhance mixing is a rectangular cavity downstream of the fuel injectors. This cavity has been shown to be a promising means for mixing and flame-holding. 
+
+Also present in these cavities are strong acoustic waves. As the fuel and air travel over these cavities, pressure waves propagate from the back wall to the front wall. Because of the closed nature of these cavities, these acoustic waves oscillate. These acoustic waves could have the potential to enhance mixing within these cavities further, which could aid in the combustion process as conditions within the engine become less ideal. If the fuel and air proportions are not correct, the combustion in the engine could stop, resulting in a stalled engine. However, with the enhanced mixing of the cavity acoustics, the engine could re-initiate combustion, saving the engine and aircraft. 
+
+Utilizing the newly installed expansion tube facility, tests were run with cavity models at engine conditions similar to the conditions that would be experienced by these supersonic, air breathing engines. This investigation will attempt to understand the mechanics of these acoustic waves as they affect mixing and combustion at non-ideal conditions. 
+}
+
+\clearpage % Start a new page
+
+%----------------------------------------------------------------------------------------
+%	ACKNOWLEDGEMENTS
+%----------------------------------------------------------------------------------------
+
+\setstretch{1.3} % Reset the line-spacing to 1.3 for body text (if it has changed)
+
+\acknowledgements{\addtocontents{toc}{\vspace{0 em}} % Add a gap in the Contents, for aesthetics
+
+There are a few people who I would like to acknowledge. First, I would like to acknowledge my research partner, Ray Sanzi. Thank you, Ray, for helping me learn about various compressible flow topics as well as assist me in running tests. I also want to thank you for all the work you put in for our group presentations. We make a pretty good tag team, if I do say so myself. I do not think I could have done this without you. 
+
+I would also like to thank my research advisor, Professor Rossmann. With your constant support and overall excitement about this project, I was inspired to complete this thesis. I appreciate all the times you forced me do the various presentations throughout the year. I understand now that you were doing it to make me more comfortable giving presentations, and not to torture me.
+
+And to the rest of the LAUNCH team, I wish you good luck in your own projects. Know that I am always an email away if you need any clarification or advice. I hope this thesis is sufficient for anyone wishing to continue this research project in the future.
+
+\vspace{11pt}
+Cheers,
+
+Mac
+}
+\clearpage % Start a new page
+
+%----------------------------------------------------------------------------------------
+%	LIST OF CONTENTS/FIGURES/TABLES PAGES
+%----------------------------------------------------------------------------------------
+
+\pagestyle{fancy} % The page style headers have been "empty" all this time, now use the "fancy" headers as defined before to bring them back
+
+\lhead{\emph{Contents}} % Set the left side page header to "Contents"
+\tableofcontents % Write out the Table of Contents
+
+\lhead{\emph{List of Figures}} % Set the left side page header to "List of Figures"
+\listoffigures % Write out the List of Figures
+
+\lhead{\emph{List of Tables}} % Set the left side page header to "List of Tables"
+\listoftables % Write out the List of Tables
+
+%----------------------------------------------------------------------------------------
+%	ABBREVIATIONS
+%----------------------------------------------------------------------------------------
+
+\clearpage % Start a new page
+
+\setstretch{1.5} % Set the line spacing to 1.5, this makes the following tables easier to read
+
+\lhead{\emph{Abbreviations}} % Set the left side page header to "Abbreviations"
+\listofsymbols{ll} % Include a list of Abbreviations (a table of two columns)
+{
+\textbf{FPS} & \textbf{F}rames \textbf{P}er \textbf{S}econd \\
+\textbf{L/D} & \textbf{L}ength to \textbf{D}epth \\
+\textbf{TTL} & \textbf{T}ransistor \textbf{T}ransistor \textbf{L}ogic
+%\textbf{Acronym} & \textbf{W}hat (it) \textbf{S}tands \textbf{F}or \\
+}
+
+%----------------------------------------------------------------------------------------
+%	PHYSICAL CONSTANTS/OTHER DEFINITIONS
+%----------------------------------------------------------------------------------------
+
+\clearpage % Start a new page
+
+\lhead{\emph{Physical Constants}} % Set the left side page header to "Physical Constants"
+
+\listofconstants{lrcl} % Include a list of Physical Constants (a four column table)
+{
+Empirical Constant & $\alpha$ & $=$ & $0.25$ (for cavities with L/D $>$ 4)\\
+
+Empirical Constant & $k$ & $=$ & $0.57$ (for cavities with L/D $>$ 4)\\
+
+
+% Constant Name & Symbol & = & Constant Value (with units) \\
+}
+
+%----------------------------------------------------------------------------------------
+%	SYMBOLS
+%----------------------------------------------------------------------------------------
+
+\clearpage % Start a new page
+
+\lhead{\emph{Symbols}} % Set the left side page header to "Symbols"
+
+\listofnomenclature{lll} % Include a list of Symbols (a three column table)
+{
+$m$ & mode number &  \\
+$M_{\infty}$ & Freestream Mach Number & \\
+$Re_x$ & Reynolds number & \\
+$U_{\infty}$ & Freestream Velocity & $m/s$ \\
+% Symbol & Name & Unit \\
+
+& & \\ % Gap to separate the Roman symbols from the Greek
+
+$\gamma_{\infty}$ & Freestream Specific Heat Ratio \\
+$\rho$ & Density of test gas & $kg/m^3$\\
+$\mu$ & Viscosity of test gas & $kg/m-s$ \\
+% Symbol & Name & Unit \\}
+}
+%----------------------------------------------------------------------------------------
+%	DEDICATION
+%----------------------------------------------------------------------------------------
+
+%\setstretch{1.3} % Return the line spacing back to 1.3
+%
+%\pagestyle{empty} % Page style needs to be empty for this page
+%
+%\dedicatory{For/Dedicated to/To my\ldots} % Dedication text
+%
+%\addtocontents{toc}{\vspace{1em}} % Add a gap in the Contents, for aesthetics
+
+%----------------------------------------------------------------------------------------
+%	THESIS CONTENT - CHAPTERS
+%----------------------------------------------------------------------------------------
+\setstretch{2} 
+\mainmatter % Begin numeric (1,2,3...) page numbering
+
+\pagestyle{fancy} % Return the page headers back to the "fancy" style
+
+% Include the chapters of the thesis as separate files from the Chapters folder
+% Uncomment the lines as you write the chapters
+
+%\input{Chapters/Chapter1}
+\input{Chapters/Chapter2} 
+%\input{Chapters/Chapter3}
+\input{Chapters/Chapter4} 
+%\input{Chapters/Chapter5} 
+\input{Chapters/Chapter6} 
+\input{Chapters/Chapter7} 
+
+%----------------------------------------------------------------------------------------
+%	THESIS CONTENT - APPENDICES
+%----------------------------------------------------------------------------------------
+
+\addtocontents{toc}{\vspace{2em}} % Add a gap in the Contents, for aesthetics
+
+\appendix % Cue to tell LaTeX that the following 'chapters' are Appendices
+
+% Include the appendices of the thesis as separate files from the Appendices folder
+% Uncomment the lines as you write the Appendices
+
+%\input{Appendices/AppendixA}
+%\input{Appendices/AppendixB}
+%\input{Appendices/AppendixC}
+
+\addtocontents{toc}{\vspace{2em}} % Add a gap in the Contents, for aesthetics
+
+\backmatter
+
+%----------------------------------------------------------------------------------------
+%	BIBLIOGRAPHY
+%----------------------------------------------------------------------------------------
+
+\label{Bibliography}
+
+\lhead{\emph{Bibliography}} % Change the page header to say "Bibliography"
+
+\bibliographystyle{unsrtnat} % Use the "unsrtnat" BibTeX style for formatting the Bibliography
+
+\bibliography{Bibliography} % The references (bibliography) information are stored in the file named "Bibliography.bib"
+
+\end{document}  

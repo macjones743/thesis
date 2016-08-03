@@ -1,9 +1,31 @@
 % Appendix A
 
-\chapter{Appendix Title Here} % Main appendix title
+\chapter{Implementation and Troubleshooting of the Timer Counter Circuit} % Main appendix title
 
-\label{AppendixA} % For referencing this appendix elsewhere, use \ref{AppendixA}
+\label{Appendix 1} % For referencing this appendix elsewhere, use \ref{AppendixA}
 
-\lhead{Appendix A. \emph{Appendix Title Here}} % This is for the header on each page - perhaps a shortened title
+When using the timer counter box, make sure the box is plugged into the power supply. Once the box has power, turn on the power supply associated with the inverting circuit. Once these are powered, the blue amplifier boxes should be turned on to supply power to the transducers. Set the appropriate gains on these boxes. The appropriate gains are based on what magnitude signal is desired. The LabVIEW program will only read signals between 0 and 5V. The pressure transducers output 0-5V for a pressure range of 0 to 100 psi. However, the pressure these transducers will be exposed to are only between 10 and 20 psi, resulting in a 0.5 to 1V signal. Setting the gain to 5 allows that signal to be amplified to to between 2.5 and 5V. Having a larger signal allows for the comparator circuit to operate more easily. One can set the comparator nominal voltage with confidence, as the larger signal allows for a larger margin of error on the set comparator voltage. This gives more confidence that the signal coming into the comparator circuit will be large enough to trigger a digital signal. 
 
-Write your Appendix content here.
+Once the physical systems are powered and ready, run the two LabVIEW programs for the capturing of the digital signals as well as the analog signals. The analog program filename is ''BasicHighSpeedOscillosope-fixed.vi'' and the digital program filename is ''CountersWorking.vi'' For the analog signal, an input is required for sampling rate and time to take data. The typical sampling rate and time for tests is 1MHz and 10,000 $\mu$s. The digital program asks for a user input of ''milliseconds to wait.'' This is the amount of time the program should wait until sending the 5V TTL pulse to the camera. Typically, this value is set to 0. 
+
+One common problem with this circuit is that no digital signal is sent from the circuit itself. To check for this, use a function generator and an oscilloscope. Hook up the oscilloscope to one of the digital out wires of the box as well as the output of the function generator. Table \ref{Table:pins} shows the number of the digital out wire to its corresponding number. Attach the function generator to the corresponding BNC connector. A T-connector is needed to split the output signal from the function generator. Send a 5V amplitude sine wave from the function generator. The corresponding signal from the box should be a square wave. If there is no square wave present, check that the potentiometer is not too high or too low. The square wave should get wider or narrower depending on the position of the potentiometer. If there is still no signal coming from the box, there may be a burnt out op-amp. If, however, there is no signal coming from any of the outputs, it is unlikely all of the op-amps burned out. In this case, there may be a wiring issue. For this, check continuity between the signal coming in and the signal coming out to make sure voltages at each connection are what they are supposed to be. Some alteration of the circuit may be required in this case. However, that is unlikely, and the problem is likely to be that the potentiometer level was set too high.
+
+\begin{table}[]
+\centering
+\caption[Digital Pin Out Colors]{Digital Out Pin Colors on the comparator circuit box corresponding to their Analog In numbers}
+\label{Table:pins}
+\begin{tabular}{l|l}
+
+Analog In & Digital Out \\ \hline
+1        & Blue       \\ 
+2        & Purple     \\ 
+3        & Black       \\ 
+4        & Yellow       \\ 
+5 		 & White		\\
+6 		 & Red	      \\
+GND      & Green	\\
+Extra    & Orange	\\
+\end{tabular}
+\end{table}
+
+\lhead{Appendix A. \emph{Timer Counter Setup and Troubleshooting}} % This is for the header on each page - perhaps a shortened title

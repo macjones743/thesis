@@ -1,15 +1,24 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.25)  5 MAY 2016 23:38
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.6.10)  27 JUL 2016 21:09
 entering extended mode
-**"./Launch Thesis Main.tex"
-("Launch Thesis Main.tex"
-LaTeX2e <2015/10/01> patch level 2
-Babel <3.9n> and hyphenation patterns for 69 languages loaded.
-(LaunchThesis.cls
+**Launch*Thesis*Main.tex
+("C:\Users\Mac\Desktop\thesis - Mac Jones\Launch Thesis Main.tex"
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+("C:\Users\Mac\Desktop\thesis - Mac Jones\LaunchThesis.cls"
 Document Class: LaunchThesis 2007/22/02 v1.0 LaTeX document class
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\book.cls"
-Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
+Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\bk11.clo"
-File: bk11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+File: bk11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@chapter=\count80
@@ -34,24 +43,22 @@ Package `vmargin', V2.2, <1999/06/01>
 \PaperWidth=\dimen103
 \PaperHeight=\dimen104
 ) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\inputenc.sty"
-Package: inputenc 2015/03/17 v1.2c Input encoding file
+Package: inputenc 2008/03/30 v1.1d Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
-File: utf8.def 2015/09/07 v1.1p UTF-8 support for inputenc
+File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
-File: t1enc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
-   defining Unicode char U+00A0 (decimal 160)
+File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
    defining Unicode char U+00AB (decimal 171)
-   defining Unicode char U+00AD (decimal 173)
    defining Unicode char U+00BB (decimal 187)
    defining Unicode char U+00BF (decimal 191)
    defining Unicode char U+00C0 (decimal 192)
@@ -172,10 +179,6 @@ File: t1enc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
    defining Unicode char U+016F (decimal 367)
    defining Unicode char U+0170 (decimal 368)
    defining Unicode char U+0171 (decimal 369)
-   defining Unicode char U+0174 (decimal 372)
-   defining Unicode char U+0175 (decimal 373)
-   defining Unicode char U+0176 (decimal 374)
-   defining Unicode char U+0177 (decimal 375)
    defining Unicode char U+0178 (decimal 376)
    defining Unicode char U+0179 (decimal 377)
    defining Unicode char U+017A (decimal 378)
@@ -183,10 +186,6 @@ File: t1enc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
    defining Unicode char U+017C (decimal 380)
    defining Unicode char U+017D (decimal 381)
    defining Unicode char U+017E (decimal 382)
-   defining Unicode char U+0218 (decimal 536)
-   defining Unicode char U+0219 (decimal 537)
-   defining Unicode char U+021A (decimal 538)
-   defining Unicode char U+021B (decimal 539)
    defining Unicode char U+200C (decimal 8204)
    defining Unicode char U+2013 (decimal 8211)
    defining Unicode char U+2014 (decimal 8212)
@@ -206,11 +205,9 @@ Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
-File: ot1enc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
-   defining Unicode char U+00A0 (decimal 160)
+File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
-   defining Unicode char U+00AD (decimal 173)
    defining Unicode char U+00B8 (decimal 184)
    defining Unicode char U+00BF (decimal 191)
    defining Unicode char U+00C5 (decimal 197)
@@ -228,14 +225,6 @@ File: ot1enc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
    defining Unicode char U+0142 (decimal 322)
    defining Unicode char U+0152 (decimal 338)
    defining Unicode char U+0153 (decimal 339)
-   defining Unicode char U+0174 (decimal 372)
-   defining Unicode char U+0175 (decimal 373)
-   defining Unicode char U+0176 (decimal 374)
-   defining Unicode char U+0177 (decimal 375)
-   defining Unicode char U+0218 (decimal 536)
-   defining Unicode char U+0219 (decimal 537)
-   defining Unicode char U+021A (decimal 538)
-   defining Unicode char U+021B (decimal 539)
    defining Unicode char U+2013 (decimal 8211)
    defining Unicode char U+2014 (decimal 8212)
    defining Unicode char U+2018 (decimal 8216)
@@ -247,7 +236,7 @@ Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
-File: omsenc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
+File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
    defining Unicode char U+00B7 (decimal 183)
@@ -357,7 +346,7 @@ Package: amscd 1999/11/29 v2.0
 \minCDarrowwidth=\dimen116
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amscls\amsthm.sty"
-Package: amsthm 2015/03/04 v2.20.2
+Package: amsthm 2004/08/06 v2.20
 \thm@style=\toks22
 \thm@bodyfont=\toks23
 \thm@headfont=\toks24
@@ -369,20 +358,20 @@ Package: amsthm 2015/03/04 v2.20.2
 \dth@everypar=\toks27
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\xspace.sty"
-Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+Package: xspace 2009/10/20 v1.13 Space after command names (DPC,MH)
 )
 \c@example=\count100
 \c@theorem=\count101
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption.sty"
-Package: caption 2015/09/17 v3.3-111 Customizing captions (AR)
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption3.sty"
-Package: caption3 2015/09/20 v1.7-115 caption3 kernel (AR)
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 57.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks28
 )
 \captionmargin=\dimen117
@@ -396,10 +385,10 @@ Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \c@ContinuedFloat=\count102
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
-Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
@@ -407,7 +396,7 @@ Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
-Package graphics Info: Driver file: pdftex.def on input line 94.
+Package graphics Info: Driver file: pdftex.def on input line 91.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
@@ -495,7 +484,7 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty"
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
 \c@r@tfl@t=\count108
 \rotFPtop=\skip58
@@ -517,7 +506,7 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 \lst@lineno=\count114
 \lst@maxwidth=\dimen142
 
-(lstpatch.sty
+("C:\Users\Mac\Desktop\thesis - Mac Jones\lstpatch.sty"
 
 ***
 *** This is a patch for listings 1.3, but you're using
@@ -537,7 +526,7 @@ File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
 
-(lstpatch.sty
+("C:\Users\Mac\Desktop\thesis - Mac Jones\lstpatch.sty"
 
 ***
 *** This is a patch for listings 1.3, but you're using
@@ -547,7 +536,7 @@ Package: listings 2015/06/04 1.6 (Carsten Heinz)
 ***
 
 ) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\afterpage.sty"
-Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
+Package: afterpage 1995/10/27 v1.08 After-Page Package (DPC)
 \AP@output=\toks31
 \AP@partial=\box31
 \AP@footins=\box32
@@ -672,7 +661,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 \c@dummy=\count127
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\longtable.sty"
-Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 \LTleft=\skip61
 \LTright=\skip62
 \LTpre=\skip63
@@ -697,6 +686,22 @@ File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package xcolor Info: Package option `usenames' ignored on input line 216.
 Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\colortbl\colortbl.sty"
+Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen148
+\extrarowheight=\dimen149
+\NC@list=\toks33
+\extratabsurround=\skip65
+\backup@length=\skip66
+)
+\everycr=\toks34
+\minrowclearance=\skip67
+)
+\rownum=\count133
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
 Package xcolor Info: Model `RGB' extended on input line 1353.
@@ -708,116 +713,114 @@ Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\dvipsnam.def"
-File: dvipsnam.def 2014/10/14 v3.0j Driver-dependent file (DPC,SPQR)
+File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
 ))
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\natbib\natbib.sty"
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip65
-\bibsep=\skip66
+\bibhang=\skip68
+\bibsep=\skip69
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count133
+\c@NAT@ctr=\count134
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 34.
+Package hyperref Info: Option `colorlinks' set `true' on input line 33.
 
-("Launch Thesis Main.aux")
-\openout1 = `"Launch Thesis Main.aux"'.
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
+("C:\Users\Mac\Desktop\thesis - Mac Jones\Launch Thesis Main.aux")
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: longtable package is loaded.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\ltcaption.sty"
-Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
+Package: ltcaption 2013/02/03 v1.3-62 longtable captions (AR)
 )
 Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count134
-\scratchdimen=\dimen148
+\scratchcounter=\count135
+\scratchdimen=\dimen150
 \scratchbox=\box37
-\nofMPsegments=\count135
-\nofMParguments=\count136
-\everyMPshowfont=\toks33
-\MPscratchCnt=\count137
-\MPscratchDim=\dimen149
-\MPnumerator=\count138
-\makeMPintoPDFobject=\count139
-\everyMPtoPDFconversion=\toks34
+\nofMPsegments=\count136
+\nofMParguments=\count137
+\everyMPshowfont=\toks35
+\MPscratchCnt=\count138
+\MPscratchDim=\dimen151
+\MPnumerator=\count139
+\makeMPintoPDFobject=\count140
+\everyMPtoPDFconversion=\toks36
 )
-\c@lstlisting=\count140
+\c@lstlisting=\count141
 \AtBeginShipoutBox=\box38
-Package hyperref Info: Link coloring ON on input line 37.
+Package hyperref Info: Link coloring ON on input line 36.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count141
+\c@section@level=\count142
 )
-LaTeX Info: Redefining \ref on input line 37.
-LaTeX Info: Redefining \pageref on input line 37.
-LaTeX Info: Redefining \nameref on input line 37.
+LaTeX Info: Redefining \ref on input line 36.
+LaTeX Info: Redefining \pageref on input line 36.
+LaTeX Info: Redefining \nameref on input line 36.
 
-("Launch Thesis Main.out") ("Launch Thesis Main.out")
+("C:\Users\Mac\Desktop\thesis - Mac Jones\Launch Thesis Main.out")
+("C:\Users\Mac\Desktop\thesis - Mac Jones\Launch Thesis Main.out")
 \@outlinefile=\write3
-\openout3 = `"Launch Thesis Main.out"'.
 
-
-<Pictures/LAF_logo_w_seal_color.pdf, id=172, 614.295pt x 794.97pt>
+<Pictures/LAF_logo_w_seal_color.pdf, id=176, 614.295pt x 794.97pt>
 File: Pictures/LAF_logo_w_seal_color.pdf Graphic file (type pdf)
 
 <use Pictures/LAF_logo_w_seal_color.pdf>
 Package pdftex.def Info: Pictures/LAF_logo_w_seal_color.pdf used on input line 
-65.
+64.
 (pdftex.def)             Requested size: 146.11812pt x 80.80498pt.
-LaTeX Font Info:    Try loading font information for U+msa on input line 81.
+LaTeX Font Info:    Try loading font information for U+msa on input line 80.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 81.
+LaTeX Font Info:    Try loading font information for U+msb on input line 80.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<Pictures/Launch_Circle_Logo.pdf, id=178, 614.295pt x 794.97pt>
+<Pictures/Launch_Circle_Logo.pdf, id=182, 614.295pt x 794.97pt>
 File: Pictures/Launch_Circle_Logo.pdf Graphic file (type pdf)
 
 <use Pictures/Launch_Circle_Logo.pdf>
-Package pdftex.def Info: Pictures/Launch_Circle_Logo.pdf used on input line 107
+Package pdftex.def Info: Pictures/Launch_Circle_Logo.pdf used on input line 106
 .
 (pdftex.def)             Requested size: 250.48637pt x 161.73029pt.
  [1
 
 
 
-{C:/Users/xbria/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./Pictures/
-LAF_logo_w_seal_color.pdf> <./Pictures/Launch_Circle_Logo.pdf>]
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/Mac/Desktop/thes
+is - Mac Jones/Pictures/LAF_logo_w_seal_color.pdf> <C:/Users/Mac/Desktop/thesis
+ - Mac Jones/Pictures/Launch_Circle_Logo.pdf>]
 ------------------------------------------------------------------------------
  Declaration of Authorship
 ------------------------------------------------------------------------------
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--141
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
 
  []
 
@@ -839,21 +842,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 141--141
 ------------------------------------------------------------------------------
  Table of Contents
 ------------------------------------------------------------------------------
-("Launch Thesis Main.toc" [5
+("C:\Users\Mac\Desktop\thesis - Mac Jones\Launch Thesis Main.toc" [5
 
 
 ])
 \tf@toc=\write4
-\openout4 = `"Launch Thesis Main.toc"'.
-
  [6]
 ------------------------------------------------------------------------------
  List of Figures
 ------------------------------------------------------------------------------
-("Launch Thesis Main.lof")
+("C:\Users\Mac\Desktop\thesis - Mac Jones\Launch Thesis Main.lof")
 \tf@lof=\write5
-\openout5 = `"Launch Thesis Main.lof"'.
-
  [7
 
 
@@ -861,10 +860,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 141--141
 ------------------------------------------------------------------------------
  List of Tables
 ------------------------------------------------------------------------------
-("Launch Thesis Main.lot")
+("C:\Users\Mac\Desktop\thesis - Mac Jones\Launch Thesis Main.lot")
 \tf@lot=\write6
-\openout6 = `"Launch Thesis Main.lot"'.
-
  [8
 
 
@@ -892,7 +889,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 141--141
 
 
 
-] (Chapters/Chapter2.tex
+] ("C:\Users\Mac\Desktop\thesis - Mac Jones\Chapters/Chapter2.tex"
 Chapter 1.
 ------------------------------------------------------------------------------
  1 Introduction
@@ -901,124 +898,161 @@ Chapter 1.
 
 
 
-] [2] [3] [4] [5] [6] [7]
-<Figures/scramjet.jpg, id=439, 650.43pt x 252.3975pt>
+] [2] [3] [4] [5] [6] [7] [8]
+<Figures/scramjet.jpg, id=470, 650.43pt x 252.3975pt>
 File: Figures/scramjet.jpg Graphic file (type jpg)
 
 <use Figures/scramjet.jpg>
-Package pdftex.def Info: Figures/scramjet.jpg used on input line 80.
+Package pdftex.def Info: Figures/scramjet.jpg used on input line 82.
 (pdftex.def)             Requested size: 417.47307pt x 162.0037pt.
 
-<Figures/CavMix.jpg, id=442, 490.83376pt x 300.3722pt>
-File: Figures/CavMix.jpg Graphic file (type jpg)
-
-<use Figures/CavMix.jpg>
-Package pdftex.def Info: Figures/CavMix.jpg used on input line 88.
-(pdftex.def)             Requested size: 354.29877pt x 216.81pt.
-
-<Figures/CavityDiagram.png, id=445, 345.70392pt x 204.88918pt>
+<Figures/CavityDiagram.png, id=473, 345.70392pt x 204.88918pt>
 File: Figures/CavityDiagram.png Graphic file (type png)
 
 <use Figures/CavityDiagram.png>
-Package pdftex.def Info: Figures/CavityDiagram.png used on input line 95.
+Package pdftex.def Info: Figures/CavityDiagram.png used on input line 89.
 (pdftex.def)             Requested size: 365.83777pt x 216.81pt.
-) (Chapters/Chapter4.tex [8 <./Figures/scramjet.jpg> <./Figures/CavMix.jpg>] [9
- <./Figures/CavityDiagram.png>]
+
+<Figures/CavMix.jpg, id=477, 490.83376pt x 300.3722pt>
+File: Figures/CavMix.jpg Graphic file (type jpg)
+
+<use Figures/CavMix.jpg>
+Package pdftex.def Info: Figures/CavMix.jpg used on input line 96.
+(pdftex.def)             Requested size: 354.29877pt x 216.81pt.
+
+<Figures/Angled.jpg, id=480, 597.23125pt x 241.90375pt>
+File: Figures/Angled.jpg Graphic file (type jpg)
+
+<use Figures/Angled.jpg>
+Package pdftex.def Info: Figures/Angled.jpg used on input line 103.
+(pdftex.def)             Requested size: 417.47307pt x 169.09523pt.
+ [9 <C:/Users/Mac/Desktop/thesis - Mac Jones/Figures/scramjet.jpg> <C:/Users/Ma
+c/Desktop/thesis - Mac Jones/Figures/CavityDiagram.png>] [10 <C:/Users/Mac/Desk
+top/thesis - Mac Jones/Figures/CavMix.jpg> <C:/Users/Mac/Desktop/thesis - Mac J
+ones/Figures/Angled.jpg>]
+<Figures/ClosedCav.jpg, id=495, 628.3475pt x 234.8775pt>
+File: Figures/ClosedCav.jpg Graphic file (type jpg)
+
+<use Figures/ClosedCav.jpg>
+Package pdftex.def Info: Figures/ClosedCav.jpg used on input line 112.
+(pdftex.def)             Requested size: 417.47307pt x 156.05179pt.
+
+<Figures/OpenCav.jpg, id=498, 552.0625pt x 254.9525pt>
+File: Figures/OpenCav.jpg Graphic file (type jpg)
+
+<use Figures/OpenCav.jpg>
+Package pdftex.def Info: Figures/OpenCav.jpg used on input line 119.
+(pdftex.def)             Requested size: 417.47307pt x 192.80501pt.
+
+<Figures/SheddingVortices.jpg, id=501, 515.9275pt x 566.115pt>
+File: Figures/SheddingVortices.jpg Graphic file (type jpg)
+
+<use Figures/SheddingVortices.jpg>
+Package pdftex.def Info: Figures/SheddingVortices.jpg used on input line 127.
+(pdftex.def)             Requested size: 417.47307pt x 458.09282pt.
+)
+("C:\Users\Mac\Desktop\thesis - Mac Jones\Chapters/Chapter4.tex" [11 <C:/Users/
+Mac/Desktop/thesis - Mac Jones/Figures/ClosedCav.jpg> <C:/Users/Mac/Desktop/the
+sis - Mac Jones/Figures/OpenCav.jpg>] [12 <C:/Users/Mac/Desktop/thesis - Mac Jo
+nes/Figures/SheddingVortices.jpg>]
 Chapter 2.
 ------------------------------------------------------------------------------
  2 Experimental Setup
 ------------------------------------------------------------------------------
-[10
+[13
 
-] [11] [12] [13] [14] [15] [16] [17] [18] [19] [20] [21]
 
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 169.
-
-[22] [23] [24] [25] [26] [27] [28] [29]
-<Figures/TubeLabeled.jpg, id=577, 7797.13pt x 1921.1775pt>
+] [14] [15] [16] [17] [18] [19] [20] [21] [22] [23] [24] [25] [26] [27]
+[28] [29] <Figures/TubeLabeled.jpg, id=624, 7797.13pt x 1921.1775pt>
 File: Figures/TubeLabeled.jpg Graphic file (type jpg)
 
 <use Figures/TubeLabeled.jpg>
-Package pdftex.def Info: Figures/TubeLabeled.jpg used on input line 278.
+Package pdftex.def Info: Figures/TubeLabeled.jpg used on input line 230.
 (pdftex.def)             Requested size: 684.97308pt x 168.76514pt.
 
-<Figures/Cavitylabel.jpg, id=578, 414.04688pt x 222.8325pt>
+<Figures/Cavitylabel.jpg, id=625, 2695.06876pt x 835.12pt>
 File: Figures/Cavitylabel.jpg Graphic file (type jpg)
 
 <use Figures/Cavitylabel.jpg>
-Package pdftex.def Info: Figures/Cavitylabel.jpg used on input line 285.
-(pdftex.def)             Requested size: 402.86327pt x 216.81pt.
+Package pdftex.def Info: Figures/Cavitylabel.jpg used on input line 237.
+(pdftex.def)             Requested size: 684.97308pt x 212.24554pt.
 
-<Figures/cavPhoto.jpg, id=579, 3344.495pt x 2367.84625pt>
+<Figures/cavPhoto.jpg, id=626, 3344.495pt x 2367.84625pt>
 File: Figures/cavPhoto.jpg Graphic file (type jpg)
 
 <use Figures/cavPhoto.jpg>
-Package pdftex.def Info: Figures/cavPhoto.jpg used on input line 292.
+Package pdftex.def Info: Figures/cavPhoto.jpg used on input line 244.
 (pdftex.def)             Requested size: 306.19691pt x 216.81pt.
 
-<Figures/CavityInserts.jpg, id=580, 481.8pt x 361.35pt>
+<Figures/CavityInserts.jpg, id=627, 642.4pt x 481.8pt>
 File: Figures/CavityInserts.jpg Graphic file (type jpg)
 
 <use Figures/CavityInserts.jpg>
-Package pdftex.def Info: Figures/CavityInserts.jpg used on input line 299.
-(pdftex.def)             Requested size: 289.08221pt x 216.81pt.
+Package pdftex.def Info: Figures/CavityInserts.jpg used on input line 251.
+(pdftex.def)             Requested size: 289.07733pt x 216.81pt.
 
-<Figures/Circuit.png, id=581, 610.28pt x 1023.825pt>
+<Figures/Circuit.png, id=628, 610.28pt x 1023.825pt>
 File: Figures/Circuit.png Graphic file (type png)
  <use Figures/Circuit.png>
-Package pdftex.def Info: Figures/Circuit.png used on input line 306.
+Package pdftex.def Info: Figures/Circuit.png used on input line 258.
 (pdftex.def)             Requested size: 417.47307pt x 700.39418pt.
 
 
-LaTeX Warning: Float too large for page by 37.4211pt on input line 309.
+LaTeX Warning: Float too large for page by 37.4211pt on input line 261.
 
-<Figures/DataFlow.png, id=582, 808.01875pt x 646.415pt>
+<Figures/DataFlow.png, id=629, 808.01875pt x 646.415pt>
 File: Figures/DataFlow.png Graphic file (type png)
 
 <use Figures/DataFlow.png>
-Package pdftex.def Info: Figures/DataFlow.png used on input line 314.
+Package pdftex.def Info: Figures/DataFlow.png used on input line 266.
 (pdftex.def)             Requested size: 417.47307pt x 333.97763pt.
- [30 <./Figures/TubeLabeled.jpg>] [31 <./Figures/Cavitylabel.jpg> <./Figures/ca
-vPhoto.jpg>] [32 <./Figures/CavityInserts.jpg>]
-[33 <./Figures/Circuit.png>] [34 <./Figures/DataFlow.png>]
-<Figures/IRschematic.png, id=606, 727.71875pt x 578.16pt>
+ [30 <C:/Users/Mac/Desktop/thesis - Mac Jones/Figures/TubeLabeled.jpg>] [31 <C:
+/Users/Mac/Desktop/thesis - Mac Jones/Figures/Cavitylabel.jpg>] [32 <C:/Users/M
+ac/Desktop/thesis - Mac Jones/Figures/cavPhoto.jpg> <C:/Users/Mac/Desktop/thesi
+s - Mac Jones/Figures/CavityInserts.jpg>] [33 <C:/Users/Mac/Desktop/thesis - Ma
+c Jones/Figures/Circuit.png>] [34 <C:/Users/Mac/Desktop/thesis - Mac Jones/Figu
+res/DataFlow.png>]
+<Figures/IRschematic.png, id=653, 727.71875pt x 578.16pt>
 File: Figures/IRschematic.png Graphic file (type png)
 
 <use Figures/IRschematic.png>
-Package pdftex.def Info: Figures/IRschematic.png used on input line 322.
+Package pdftex.def Info: Figures/IRschematic.png used on input line 274.
 (pdftex.def)             Requested size: 272.89386pt x 216.81pt.
 
-<Figures/IRLabeled.jpg, id=607, 5331.92pt x 2999.205pt>
+<Figures/IRLabeled.jpg, id=654, 5331.92pt x 2999.205pt>
 File: Figures/IRLabeled.jpg Graphic file (type jpg)
 
 <use Figures/IRLabeled.jpg>
-Package pdftex.def Info: Figures/IRLabeled.jpg used on input line 329.
+Package pdftex.def Info: Figures/IRLabeled.jpg used on input line 281.
 (pdftex.def)             Requested size: 385.39494pt x 216.81pt.
 
-<Figures/absorption.jpg, id=608, 563.10374pt x 421.575pt>
+<Figures/absorption.jpg, id=655, 563.10374pt x 421.575pt>
 File: Figures/absorption.jpg Graphic file (type jpg)
 
 <use Figures/absorption.jpg>
-Package pdftex.def Info: Figures/absorption.jpg used on input line 336.
+Package pdftex.def Info: Figures/absorption.jpg used on input line 288.
 (pdftex.def)             Requested size: 289.60213pt x 216.81pt.
 
-<Figures/Co2NoPressure.jpg, id=609, 563.10374pt x 421.575pt>
+<Figures/Co2NoPressure.jpg, id=656, 563.10374pt x 421.575pt>
 File: Figures/Co2NoPressure.jpg Graphic file (type jpg)
 
 <use Figures/Co2NoPressure.jpg>
-Package pdftex.def Info: Figures/Co2NoPressure.jpg used on input line 343.
+Package pdftex.def Info: Figures/Co2NoPressure.jpg used on input line 295.
 (pdftex.def)             Requested size: 289.60213pt x 216.81pt.
 
-<Figures/Schlieren.png, id=610, 818.05624pt x 505.89pt>
+<Figures/Schlieren.png, id=657, 818.05624pt x 505.89pt>
 File: Figures/Schlieren.png Graphic file (type png)
 
 <use Figures/Schlieren.png>
-Package pdftex.def Info: Figures/Schlieren.png used on input line 350.
+Package pdftex.def Info: Figures/Schlieren.png used on input line 302.
 (pdftex.def)             Requested size: 417.47307pt x 258.1703pt.
-) (Chapters/Chapter6.tex [35 <./Figures/IRschematic.png> <./Figures/IRLabeled.j
-pg>] [36 <./Figures/absorption.jpg> <./Figures/Co2NoPressure.jpg>] [37 <./Figur
-es/Schlieren.png>]
+)
+("C:\Users\Mac\Desktop\thesis - Mac Jones\Chapters/Chapter6.tex" [35 <C:/Users/
+Mac/Desktop/thesis - Mac Jones/Figures/IRschematic.png> <C:/Users/Mac/Desktop/t
+hesis - Mac Jones/Figures/IRLabeled.jpg>] [36 <C:/Users/Mac/Desktop/thesis - Ma
+c Jones/Figures/absorption.jpg> <C:/Users/Mac/Desktop/thesis - Mac Jones/Figure
+s/Co2NoPressure.jpg>] [37 <C:/Users/Mac/Desktop/thesis - Mac Jones/Figures/Schl
+ieren.png>]
 Chapter 3.
 ------------------------------------------------------------------------------
  3 Experimental Results
@@ -1031,79 +1065,116 @@ Chapter 3.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 36.
 
-
-LaTeX Warning: Reference `fig:IRtrace' on page 40 undefined on input line 54.
-
-[40] <Figures/5.jpg, id=647, 677.53125pt x 388.45125pt>
+[40] <Figures/5.jpg, id=696, 567.62062pt x 269.50688pt>
 File: Figures/5.jpg Graphic file (type jpg)
  <use Figures/5.jpg>
 Package pdftex.def Info: Figures/5.jpg used on input line 64.
-(pdftex.def)             Requested size: 378.16397pt x 216.81pt.
+(pdftex.def)             Requested size: 417.47307pt x 198.22293pt.
 
-<Figures/5-30.jpg, id=648, 553.06625pt x 294.09875pt>
+<Figures/5-30.jpg, id=697, 553.31718pt x 271.0125pt>
 File: Figures/5-30.jpg Graphic file (type jpg)
  <use Figures/5-30.jpg>
 Package pdftex.def Info: Figures/5-30.jpg used on input line 71.
-(pdftex.def)             Requested size: 407.7267pt x 216.81pt.
+(pdftex.def)             Requested size: 417.47307pt x 204.47464pt.
 
-<Figures/7.jpg, id=649, 704.6325pt x 415.5525pt>
+<Figures/7.jpg, id=698, 704.6325pt x 415.5525pt>
 File: Figures/7.jpg Graphic file (type jpg)
  <use Figures/7.jpg>
 Package pdftex.def Info: Figures/7.jpg used on input line 78.
-(pdftex.def)             Requested size: 367.63672pt x 216.81pt.
+(pdftex.def)             Requested size: 417.47307pt x 246.20105pt.
 
-<Figures/9.jpg, id=650, 694.595pt x 409.53pt>
+<Figures/9.jpg, id=699, 694.595pt x 409.53pt>
 File: Figures/9.jpg Graphic file (type jpg)
  <use Figures/9.jpg>
 Package pdftex.def Info: Figures/9.jpg used on input line 85.
-(pdftex.def)             Requested size: 367.73085pt x 216.81pt.
+(pdftex.def)             Requested size: 417.47307pt x 246.15106pt.
 
-<Figures/cavResTime.jpg, id=651, 361.35pt x 216.81pt>
+<Figures/cavResTime.jpg, id=700, 361.35pt x 216.81pt>
 File: Figures/cavResTime.jpg Graphic file (type jpg)
 
 <use Figures/cavResTime.jpg>
 Package pdftex.def Info: Figures/cavResTime.jpg used on input line 92.
-(pdftex.def)             Requested size: 417.47307pt x 250.48744pt.
- [41 <./Figures/5.jpg> <./Figures/5-30.jpg>]
-[42 <./Figures/7.jpg> <./Figures/9.jpg>] [43 <./Figures/cavResTime.jpg>]
-<Figures/XTDiag.png, id=666, 363.2772pt x 272.217pt>
+(pdftex.def)             Requested size: 684.97308pt x 411.02357pt.
+ [41 <C:/Users/Mac/Desktop/thesis - Mac Jones/Figures/5.jpg> <C:/Users/Mac/Desk
+top/thesis - Mac Jones/Figures/5-30.jpg>] [42 <C:/Users/Mac/Desktop/thesis - Ma
+c Jones/Figures/7.jpg> <C:/Users/Mac/Desktop/thesis - Mac Jones/Figures/9.jpg>]
+ [43 <C:/Users/Mac/Desktop/thesis - Mac Jones/Figures/cavResTime.jpg>] <Figures
+/XTDiag.png, id=715, 363.2772pt x 272.217pt>
 File: Figures/XTDiag.png Graphic file (type png)
- <use Figures/XTDiag.png>
+
+<use Figures/XTDiag.png>
 Package pdftex.def Info: Figures/XTDiag.png used on input line 100.
-(pdftex.def)             Requested size: 289.34723pt x 216.81pt.
-
-<Figures/CO2-2.jpg, id=667, 563.10374pt x 421.575pt>
+(pdftex.def)             Requested size: 417.47307pt x 312.8477pt.
+ <Figures/CO2-2.jpg, id=716, 563.10374pt x 421.575pt>
 File: Figures/CO2-2.jpg Graphic file (type jpg)
- <use Figures/CO2-2.jpg>
+
+<use Figures/CO2-2.jpg>
 Package pdftex.def Info: Figures/CO2-2.jpg used on input line 107.
-(pdftex.def)             Requested size: 289.60213pt x 216.81pt.
-
-<Figures/H2.jpg, id=668, 563.10374pt x 421.575pt>
+(pdftex.def)             Requested size: 417.47307pt x 312.54597pt.
+ <Figures/H2.jpg, id=717, 563.10374pt x 421.575pt>
 File: Figures/H2.jpg Graphic file (type jpg)
- <use Figures/H2.jpg>
-Package pdftex.def Info: Figures/H2.jpg used on input line 114.
-(pdftex.def)             Requested size: 289.60213pt x 216.81pt.
 
-<Figures/H2andCo2.jpg, id=669, 563.10374pt x 421.575pt>
+<use Figures/H2.jpg>
+Package pdftex.def Info: Figures/H2.jpg used on input line 114.
+(pdftex.def)             Requested size: 417.47307pt x 312.54597pt.
+ <Figures/H2andCo2.jpg, id=718, 563.10374pt x 421.575pt>
 File: Figures/H2andCo2.jpg Graphic file (type jpg)
 
 <use Figures/H2andCo2.jpg>
 Package pdftex.def Info: Figures/H2andCo2.jpg used on input line 121.
-(pdftex.def)             Requested size: 289.60213pt x 216.81pt.
-) (Chapters/Chapter7.tex [44 <./Figures/XTDiag.png> <./Figures/CO2-2.jpg>] [45 
-<./Figures/H2.jpg> <./Figures/H2andCo2.jpg>]
+(pdftex.def)             Requested size: 417.47307pt x 312.54597pt.
+)
+("C:\Users\Mac\Desktop\thesis - Mac Jones\Chapters/Chapter7.tex" [44 <C:/Users/
+Mac/Desktop/thesis - Mac Jones/Figures/XTDiag.png>] [45 <C:/Users/Mac/Desktop/t
+hesis - Mac Jones/Figures/CO2-2.jpg>] [46 <C:/Users/Mac/Desktop/thesis - Mac Jo
+nes/Figures/H2.jpg>] [47 <C:/Users/Mac/Desktop/thesis - Mac Jones/Figures/H2and
+Co2.jpg>]
 Chapter 4.
 ------------------------------------------------------------------------------
  4 Future Work
 ------------------------------------------------------------------------------
-[46
+[48
 
 
-] [47] [48])
+] [49] [50])
+("C:\Users\Mac\Desktop\thesis - Mac Jones\Appendices/AppendixA.tex"
+Appendix A.
+------------------------------------------------------------------------------
+ A Implementation and Troubleshooting of the Timer Counter Circuit
+------------------------------------------------------------------------------
+[51
+
+]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 13.
+
+[52]) ("C:\Users\Mac\Desktop\thesis - Mac Jones\Appendices/AppendixB.tex"
+[53]
+Appendix B.
+------------------------------------------------------------------------------
+ B Implementation of the IR Sensor
+------------------------------------------------------------------------------
+[54
+
+]) ("C:\Users\Mac\Desktop\thesis - Mac Jones\Appendices/AppendixC.tex"
+[55]
+Appendix C.
+------------------------------------------------------------------------------
+ C IR Test Information
+------------------------------------------------------------------------------
+
+Overfull \hbox (1.62805pt too wide) in alignment at lines 16--29
+[][][][][][][][][][] 
+ []
+
+) [56
+
+]
 ------------------------------------------------------------------------------
  Bibliography
 ------------------------------------------------------------------------------
-("Launch Thesis Main.bbl" [49
+("C:\Users\Mac\Desktop\thesis - Mac Jones\Launch Thesis Main.bbl" [57
 
 
 ]
@@ -1112,29 +1183,25 @@ Underfull \hbox (badness 1019) in paragraph at lines 87--91
  : / / web . stanford . edu / group / fpc / cgi-[]bin /$
  []
 
-[50])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 336.
- [51]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 336.
- ("Launch Thesis Main.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 336.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 336.
-Package rerunfilecheck Info: File `"Launch Thesis Main".out' has not changed.
-(rerunfilecheck)             Checksum: 8BC8B5AEA6401882BC20A4E934DE8C39;6330.
-
-
-LaTeX Warning: There were undefined references.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 336.
+[58])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 335.
+ [59]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 335.
+ ("C:\Users\Mac\Desktop\thesis - Mac Jones\Launch Thesis Main.aux")
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 335.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 335.
+Package rerunfilecheck Info: File `Launch*Thesis*Main.out' has not changed.
+(rerunfilecheck)             Checksum: <no file>.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 335.
  ) 
 Here is how much of TeX's memory you used:
- 13888 strings out of 493634
- 195046 string characters out of 3141314
- 271430 words of memory out of 3000000
- 16885 multiletter control sequences out of 15000+200000
+ 14013 strings out of 493921
+ 198458 string characters out of 3144882
+ 272808 words of memory out of 3000000
+ 16880 multiletter control sequences out of 15000+200000
  15735 words of font info for 59 fonts, out of 3000000 for 9000
- 1025 hyphenation exceptions out of 8191
- 49i,12n,45p,1870b,460s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 841 hyphenation exceptions out of 8191
+ 49i,11n,45p,2157b,462s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
 :/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:
@@ -1153,9 +1220,9 @@ fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
 nts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
 s/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/
 type1/public/amsfonts/symbols/msam7.pfb>
-Output written on "Launch Thesis Main.pdf" (63 pages, 11705451 bytes).
+Output written on "Launch Thesis Main.pdf" (71 pages, 12014477 bytes).
 PDF statistics:
- 808 PDF objects out of 1000 (max. 8388607)
- 165 named destinations out of 1000 (max. 500000)
- 474 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 894 PDF objects out of 1000 (max. 8388607)
+ 181 named destinations out of 1000 (max. 500000)
+ 502 words of extra memory for PDF output out of 10000 (max. 10000000)
 

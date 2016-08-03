@@ -1,7 +1,11 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {2.1}{\ignorespaces Diaphragm Burst Pressures}}{13}{table.caption.35}
-\contentsline {table}{\numberline {2.2}{\ignorespaces Digital Pin Out Colors}}{22}{table.caption.45}
+\contentsline {table}{\numberline {2.1}{\ignorespaces Diaphragm Burst Pressures}}{16}{table.caption.39}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces Test time calculated with IR signal}}{40}{table.caption.68}
+\contentsline {table}{\numberline {3.1}{\ignorespaces Test time calculated with IR signal}}{40}{table.caption.69}
 \addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {A.1}{\ignorespaces Digital Pin Out Colors}}{53}{table.caption.84}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {C.1}{\ignorespaces Basic pressure, timer counter, IR, and test time data from all successful tests utilizing the IR sensor. The test gas labeled CO$_2$ was a 5\% CO$_2$ mixture in nitrogen. The test gas labeled H$_2$ was a 2H$_2$ + O$_2$ + 8N$_2$ mixture. *Staged filling resulted in two levels of IR signal. The first number represents the time the Hydrogen mixture passed the sensor, while the second represents the CO$_2$ mixture.\relax }}{56}{table.caption.87}

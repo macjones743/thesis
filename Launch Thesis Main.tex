@@ -26,9 +26,8 @@
 %----------------------------------------------------------------------------------------
 
 \documentclass[11pt, oneside]{LaunchThesis} % The default font size and one-sided printing (no margin offsets)
-
 \graphicspath{{Pictures/}} % Specifies the directory where pictures are stored
-\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[usenames,dvipsnames,table,xcdraw]{xcolor}
 \definecolor{LafMaroon}{cmyk}{0.1,0.97,0.61,0.48}
 \usepackage[square, numbers, comma, sort&compress]{natbib} % Use the natbib reference package - read up on this to edit the reference style; if you want text (e.g. Smith et al., 2012) for the in-text references (instead of numbers), remove 'numbers' 
 \hypersetup{urlcolor= LafMaroon, colorlinks=true} % Colors hyperlinks in blue - change to black if annoying
@@ -313,9 +312,9 @@ $\mu$ & Viscosity of test gas & $kg/m-s$ \\
 % Include the appendices of the thesis as separate files from the Appendices folder
 % Uncomment the lines as you write the Appendices
 
-%\input{Appendices/AppendixA}
-%\input{Appendices/AppendixB}
-%\input{Appendices/AppendixC}
+\input{Appendices/AppendixA}
+\input{Appendices/AppendixB}
+\input{Appendices/AppendixC}
 
 \addtocontents{toc}{\vspace{2em}} % Add a gap in the Contents, for aesthetics
 

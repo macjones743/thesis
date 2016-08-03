@@ -1,0 +1,44 @@
+\contentsline {chapter}{Declaration of Authorship}{i}{dummy.1}
+\vspace {0 em}
+\contentsline {chapter}{Abstract}{iii}{dummy.2}
+\vspace {0 em}
+\contentsline {chapter}{Acknowledgements}{iv}{dummy.3}
+\vspace {0 em}
+\contentsline {chapter}{Contents}{v}{dummy.4}
+\contentsline {chapter}{List of Figures}{vii}{dummy.6}
+\contentsline {chapter}{List of Tables}{viii}{dummy.8}
+\contentsline {chapter}{Abbreviations}{ix}{dummy.10}
+\contentsline {chapter}{Physical Constants}{x}{dummy.13}
+\contentsline {chapter}{Symbols}{xi}{dummy.16}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.19}
+\contentsline {section}{\numberline {1.1}Motivation}{1}{section.20}
+\contentsline {section}{\numberline {1.2}Background}{4}{section.21}
+\contentsline {subsection}{\numberline {1.2.1}Acoustic Properties}{4}{subsection.22}
+\contentsline {subsection}{\numberline {1.2.2}Flame Holding}{5}{subsection.25}
+\contentsline {subsection}{\numberline {1.2.3}Initiation and Extinction}{7}{subsection.26}
+\contentsline {chapter}{\numberline {2}Experimental Setup}{10}{chapter.30}
+\contentsline {section}{\numberline {2.1}Expansion Tube}{10}{section.31}
+\contentsline {subsection}{\numberline {2.1.1}Sections}{10}{subsection.32}
+\contentsline {subsection}{\numberline {2.1.2}Diaphragms}{11}{subsection.33}
+\contentsline {section}{\numberline {2.2}Models}{14}{section.36}
+\contentsline {subsection}{\numberline {2.2.1}Design Choices}{14}{subsection.37}
+\contentsline {subsection}{\numberline {2.2.2}Modular Design}{17}{subsection.40}
+\contentsline {subsection}{\numberline {2.2.3}Implementation}{18}{subsection.41}
+\contentsline {section}{\numberline {2.3}High Speed Pressure Transducers}{18}{section.42}
+\contentsline {subsection}{\numberline {2.3.1}Circuit}{19}{subsection.43}
+\contentsline {subsection}{\numberline {2.3.2}Implementation and Troubleshooting}{20}{subsection.44}
+\contentsline {section}{\numberline {2.4}Infrared Sensor}{22}{section.46}
+\contentsline {subsection}{\numberline {2.4.1}Design of System}{23}{subsection.47}
+\contentsline {subsection}{\numberline {2.4.2}Set Up}{24}{subsection.48}
+\contentsline {subsection}{\numberline {2.4.3}Absorption}{25}{subsection.49}
+\contentsline {subsection}{\numberline {2.4.4}Emission}{26}{subsection.50}
+\contentsline {subsection}{\numberline {2.4.5}Premature Ignition}{27}{subsection.51}
+\contentsline {section}{\numberline {2.5}Schlieren Imaging}{27}{section.52}
+\contentsline {chapter}{\numberline {3}Experimental Results}{38}{chapter.64}
+\contentsline {section}{\numberline {3.1}Non-Combusting Tests}{38}{section.65}
+\contentsline {subsection}{\numberline {3.1.1}Schlieren}{38}{subsection.66}
+\contentsline {subsection}{\numberline {3.1.2}IR}{39}{subsection.67}
+\contentsline {chapter}{\numberline {4}Future Work}{46}{chapter.78}
+\contentsline {section}{\numberline {4.1}Future Testing}{46}{section.79}
+\contentsline {section}{\numberline {4.2}Suggestions for Other Improvements}{47}{section.80}
+\contentsline {subsection}{\numberline {4.2.1}Fuel Injection into Cavities}{48}{subsection.81}

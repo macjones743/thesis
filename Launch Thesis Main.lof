@@ -1,27 +1,34 @@
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Scramjet Diagram}}{8}{figure.caption.27}
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Cavity-Actuated Mixing}}{8}{figure.caption.28}
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Diagram of typical cavity}}{9}{figure.caption.29}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Scramjet Diagram}}{9}{figure.caption.27}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Diagram of typical cavity}}{9}{figure.caption.28}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Cavity-Actuated Mixing}}{10}{figure.caption.29}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Diagram of typical cavity showing recirculation}}{10}{figure.caption.30}
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Eddies within a closed cavity}}{11}{figure.caption.31}
+\contentsline {figure}{\numberline {1.6}{\ignorespaces Eddies within an open cavity}}{11}{figure.caption.32}
+\contentsline {figure}{\numberline {1.7}{\ignorespaces Shedding vortex process that occurs within cavities}}{12}{figure.caption.33}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Annotated Expansion Tube}}{30}{figure.caption.53}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Cavity 3D Model}}{31}{figure.caption.54}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Cavity in Test Section}}{31}{figure.caption.55}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Cavity Model with Inserts}}{32}{figure.caption.56}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Circuit Diagram for Timer Counter Box}}{33}{figure.caption.57}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Data Flow for High Speed Pressure Transducers}}{34}{figure.caption.58}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces IR setup diagram}}{35}{figure.caption.59}
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Labeled photograph of IR setup}}{35}{figure.caption.60}
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Typical IR data utilizing absorption method}}{36}{figure.caption.61}
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Typical IR data utilizing emission method}}{36}{figure.caption.62}
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Schlieren Diagram}}{37}{figure.caption.63}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Annotated Expansion Tube}}{30}{figure.caption.54}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Cavity Drawing}}{31}{figure.caption.55}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Cavity in Test Section}}{32}{figure.caption.56}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Cavity Model with Inserts}}{32}{figure.caption.57}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Circuit Diagram for Timer Counter Box}}{33}{figure.caption.58}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Data Flow for High Speed Pressure Transducers}}{34}{figure.caption.59}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces IR setup diagram}}{35}{figure.caption.60}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Labeled photograph of IR setup}}{35}{figure.caption.61}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Typical IR data utilizing absorption method}}{36}{figure.caption.62}
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Typical IR data utilizing emission method}}{36}{figure.caption.63}
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Schlieren Diagram}}{37}{figure.caption.64}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Schlieren image of cavity. L/D = 5.}}{41}{figure.caption.69}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Schlieren image of cavity with angled downstream wall. L/D = 5.}}{41}{figure.caption.70}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Schlieren image of cavity. L/D = 7.}}{42}{figure.caption.71}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Schlieren image of cavity. L/D = 9.}}{42}{figure.caption.72}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Time-correlated Schlieren image of cavity. L/D = 5.}}{43}{figure.caption.73}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces X-T Diagram of Cavity Tests}}{44}{figure.caption.74}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces IR Signal for Test 046}}{44}{figure.caption.75}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces IR Signal for Test 046}}{45}{figure.caption.76}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces IR Signal for Test 046}}{45}{figure.caption.77}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Schlieren image of cavity. L/D = 5.}}{41}{figure.caption.70}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Schlieren image of cavity with angled downstream wall. L/D = 5.}}{41}{figure.caption.71}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Schlieren image of cavity. L/D = 7.}}{42}{figure.caption.72}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Schlieren image of cavity. L/D = 9.}}{42}{figure.caption.73}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Time-correlated Schlieren image of cavity. L/D = 5.}}{43}{figure.caption.74}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces X-T Diagram of Cavity Tests}}{44}{figure.caption.75}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces IR Signal for Test 046}}{45}{figure.caption.76}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces IR Signal for Test 046}}{46}{figure.caption.77}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces IR Signal for Test 046}}{47}{figure.caption.78}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
 \addvspace {10\p@ }
